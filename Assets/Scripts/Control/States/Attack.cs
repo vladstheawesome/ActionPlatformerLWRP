@@ -17,7 +17,6 @@ namespace ActionPlatformer.Control
         public bool MustFaceAttacker;
         public float LethalRange;
         public int MaxHits;
-        //public List<RuntimeAnimatorController> DeathAnimators = new List<RuntimeAnimatorController>();
 
         public List<AttackInfo> FinishedAttacks = new List<AttackInfo>();
 
@@ -43,6 +42,7 @@ namespace ActionPlatformer.Control
         {
             RegisterAttack(characterState, animator, stateInfo);
             DeregisterAttack(characterState, animator, stateInfo);
+            CheckCombo(characterState, animator, stateInfo);
         }
 
         public void RegisterAttack(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
@@ -79,7 +79,22 @@ namespace ActionPlatformer.Control
                     {
                         info.isFinished = true;
                         info.GetComponent<PoolObject>().TurnOff();
-                        //Destroy(info.gameObject);
+                    }
+                }
+            }
+        }
+
+        public void CheckCombo(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
+        {
+            if (stateInfo.normalizedTime >=  StartAttackTime + ((EndAttackTime - StartAttackTime) / 3f))
+            {
+                if (stateInfo.normalizedTime < EndAttackTime + ((EndAttackTime - StartAttackTime) / 2f))
+                {
+                    CharacterControl control = characterState.GetCharacterControl(animator);
+                    if (control.Attack)
+                    {
+                        Debug.Log("Uppercut Triggered");
+                        animator.SetBool(TransitionParameter.Attack.ToString(), true);
                     }
                 }
             }
@@ -96,7 +111,7 @@ namespace ActionPlatformer.Control
 
             foreach(AttackInfo info in AttackManager.Instance.CurrentAttacks)
             {
-                if (info == null || info.isFinished)
+                if (info == null || info.AttackAbility == this /*info.isFinished*/)
                 {
                     FinishedAttacks.Add(info);
                 }
@@ -110,11 +125,5 @@ namespace ActionPlatformer.Control
                 }
             }
         }
-
-        /*public RuntimeAnimatorController GetDeathAnimator()
-        {
-            int index = Random.Range(0, DeathAnimators.Count);
-            return DeathAnimators[index];
-        }*/
     }
 }
