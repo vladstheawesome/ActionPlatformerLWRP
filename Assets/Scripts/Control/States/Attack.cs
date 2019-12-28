@@ -13,6 +13,7 @@ namespace ActionPlatformer.Control
         public float StartAttackTime;
         public float EndAttackTime;
         public List<string> ColliderNames = new List<string>(); // List of body parts that the attack is using
+        public bool LaunchIntoAir;
         public bool MustCollide;
         public bool MustFaceAttacker;
         public float LethalRange;

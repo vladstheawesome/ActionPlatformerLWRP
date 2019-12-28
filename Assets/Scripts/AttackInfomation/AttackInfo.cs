@@ -10,7 +10,7 @@ namespace ActionPlatformer.AttackInfomation
         public CharacterControl Attacker = null;
         public Attack AttackAbility;
         public List<string> ColliderNames = new List<string>(); // names for the body parts that are going to carry the attack
-
+        public bool LaunchIntoAir;
         public bool MustCollide;
         public bool MustFaceAttacker;
         public float LethalRange;
@@ -34,6 +34,7 @@ namespace ActionPlatformer.AttackInfomation
 
             AttackAbility = attack;
             ColliderNames = attack.ColliderNames;
+            LaunchIntoAir = attack.LaunchIntoAir;
             MustCollide = attack.MustCollide;
             MustFaceAttacker = attack.MustFaceAttacker;
             LethalRange = attack.LethalRange;
