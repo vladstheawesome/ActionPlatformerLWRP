@@ -20,7 +20,7 @@ namespace ActionPlatformer.Control
         public float LethalRange;
         public int MaxHits;
 
-        public List<AttackInfo> FinishedAttacks = new List<AttackInfo>();
+        List<AttackInfo> FinishedAttacks = new List<AttackInfo>();
 
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
@@ -62,7 +62,7 @@ namespace ActionPlatformer.Control
                     {
                         if(debug)
                         {
-                            Debug.Log(this.name + " registered: " + stateInfo.normalizedTime);
+                            //Debug.Log(this.name + " registered: " + stateInfo.normalizedTime);
                         }
                         info.Register(this);
                     }
@@ -88,7 +88,7 @@ namespace ActionPlatformer.Control
 
                         if (debug)
                         {
-                            Debug.Log(this.name + " registered: " + stateInfo.normalizedTime);
+                            //Debug.Log(this.name + " registered: " + stateInfo.normalizedTime);
                         }
                     }
                 }
@@ -104,7 +104,7 @@ namespace ActionPlatformer.Control
                     CharacterControl control = characterState.GetCharacterControl(animator);
                     if (control.Attack)
                     {
-                        Debug.Log("Uppercut Triggered");
+                        //Debug.Log("Uppercut Triggered");
                         animator.SetBool(TransitionParameter.Attack.ToString(), true);
                     }
                 }

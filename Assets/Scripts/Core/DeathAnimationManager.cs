@@ -37,6 +37,17 @@ namespace ActionPlatformer.Core
                         Candidates.Add(data.Animator);
                     }
                 }
+                else if(!info.MustCollide)
+                {
+                    foreach (GeneralBodyPart part in data.GeneralBodyParts)
+                    {
+                        if (part == GeneralBodyPart.Lower || part == GeneralBodyPart.Leg)
+                        {
+                            Candidates.Add(data.Animator);
+                            break;
+                        }
+                    }
+                }
                 else
                 {
                     foreach (GeneralBodyPart part in data.GeneralBodyParts)
