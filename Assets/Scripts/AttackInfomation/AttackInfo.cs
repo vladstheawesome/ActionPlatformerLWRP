@@ -26,6 +26,7 @@ namespace ActionPlatformer.AttackInfomation
             isFinished = false;
             AttackAbility = attack; // attack should know what ability its based on
             Attacker = attacker;
+            MustCollide = attack.MustCollide;
         }
 
         public void Register(Attack attack)
