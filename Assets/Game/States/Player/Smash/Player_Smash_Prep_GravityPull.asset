@@ -9,32 +9,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dba6d64433f304741835a1a28842dde8, type: 3}
-  m_Name: Player_Walk_MoveForward
+  m_Script: {fileID: 11500000, guid: 5e8a11510036bb64aae06e76799c0525, type: 3}
+  m_Name: Player_Smash_Prep_GravityPull
   m_EditorClassIdentifier: 
-  SpeedGraph:
+  Gravity:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      value: 0
+      inSlope: 0.11876552
+      outSlope: 0.11876552
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.59920543
+      value: 0.07116494
+      inSlope: 0.28248343
+      outSlope: 0.28248343
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      value: 0.25
+      inSlope: 0.44620132
+      outSlope: 0.44620132
       tangentMode: 34
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  Speed: 1.8
-  BlockDistance: 0.1

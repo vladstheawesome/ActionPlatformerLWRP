@@ -199,10 +199,10 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.030952245
-  m_TransitionOffset: 0.01904886
-  m_ExitTime: 0.96761906
-  m_HasExitTime: 1
+  m_TransitionDuration: 0.020297848
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9153107
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -512,9 +512,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.006831713
+  m_TransitionDuration: 0.023620427
   m_TransitionOffset: 0
-  m_ExitTime: 0.9579577
+  m_ExitTime: 0.8589927
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -609,9 +609,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.04943621
+  m_TransitionDuration: 0.06425941
   m_TransitionOffset: 0
-  m_ExitTime: 0.59981847
+  m_ExitTime: 0.94683546
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -984,6 +984,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListAbilityData:
   - {fileID: 11400000, guid: adb5cdbe4252f6a43a90189a3e46934f, type: 2}
+  - {fileID: 11400000, guid: b81381dad7827934eb5927813f0497a3, type: 2}
+  - {fileID: 11400000, guid: a859e954292921643b364e277777f554, type: 2}
+  - {fileID: 11400000, guid: 5f232f875da54ac4086cef8435ae6c70, type: 2}
 --- !u!1102 &5741531815072991005
 AnimatorState:
   serializedVersion: 5

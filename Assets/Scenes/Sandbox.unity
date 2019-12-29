@@ -359,7 +359,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238605873}
-  m_LocalRotation: {x: -0.016807795, y: -0.65381163, z: -0.014528972, w: 0.75633115}
+  m_LocalRotation: {x: -0.016198698, y: -0.68423706, z: -0.015205113, w: 0.72892123}
   m_LocalPosition: {x: 14.871493, y: 1.7154949, z: 0.6041093}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -384,6 +384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lamp_Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195528517815131200, guid: 6f08a217170052c409461ffc2486de31,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5195528517815131212, guid: 6f08a217170052c409461ffc2486de31,
         type: 3}
@@ -603,7 +608,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.016807804, y: -0.6538116, z: -0.014528976, w: 0.7563312}
+  m_LocalRotation: {x: -0.016198697, y: -0.68423706, z: -0.015205114, w: 0.7289212}
   m_LocalPosition: {x: 10, y: 2.1029944, z: -1.2098227}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1094,7 +1099,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834274477}
-  m_LocalRotation: {x: -0.016807804, y: -0.6538116, z: -0.014528976, w: 0.7563312}
+  m_LocalRotation: {x: -0.016198697, y: -0.68423706, z: -0.015205114, w: 0.7289212}
   m_LocalPosition: {x: 14.871493, y: 1.7154949, z: 0.6041093}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1298,6 +1303,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dummy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 142863784870378755, guid: e2ab1af76d1fcd64592a461f9b3ac5c1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 142863784870378767, guid: e2ab1af76d1fcd64592a461f9b3ac5c1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1477,6 +1487,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lamp_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598176169428584579, guid: b78b4ee84cfd40040bb134ae2ff28cbe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6598176169428584591, guid: b78b4ee84cfd40040bb134ae2ff28cbe,
         type: 3}
@@ -1684,6 +1699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Dummy
+      objectReference: {fileID: 0}
+    - target: {fileID: 142863784870378755, guid: e2ab1af76d1fcd64592a461f9b3ac5c1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 142863784870378767, guid: e2ab1af76d1fcd64592a461f9b3ac5c1,
         type: 3}
