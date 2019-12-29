@@ -1,4 +1,5 @@
-﻿using ActionPlatformer.Death;
+﻿using ActionPlatformer.AttackInfomation;
+using ActionPlatformer.Death;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,7 +22,7 @@ namespace ActionPlatformer.Core
             }
         }
 
-        public RuntimeAnimatorController GetAnimator(GeneralBodyPart generalBodyPart)
+        public RuntimeAnimatorController GetAnimator(GeneralBodyPart generalBodyPart, AttackInfo info)
         {
             SetUpDeathAnimationLoader();
 
@@ -29,14 +30,24 @@ namespace ActionPlatformer.Core
 
             foreach (DeathAnimationData data in deathAnimationLoader.DeathAnimationList)
             {
-                foreach (GeneralBodyPart part in data.GeneralBodyParts)
+                if (info.LaunchIntoAir)
                 {
-                    if (part == generalBodyPart)
+                    if(data.LaunchIntoAir)
                     {
                         Candidates.Add(data.Animator);
-                        break;
                     }
                 }
+                else
+                {
+                    foreach (GeneralBodyPart part in data.GeneralBodyParts)
+                    {
+                        if (part == generalBodyPart)
+                        {
+                            Candidates.Add(data.Animator);
+                            break;
+                        }
+                    }
+                }                
             }
 
             return Candidates[Random.Range(0, Candidates.Count)];

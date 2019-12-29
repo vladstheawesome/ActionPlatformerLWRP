@@ -10,6 +10,7 @@ namespace ActionPlatformer.Control
     [CreateAssetMenu(fileName = "New State", menuName = "ActionPlatformer/AbilityData/Attack")]
     public class Attack : StateData
     {
+        public bool debug;
         public float StartAttackTime;
         public float EndAttackTime;
         public List<string> ColliderNames = new List<string>(); // List of body parts that the attack is using
@@ -59,6 +60,10 @@ namespace ActionPlatformer.Control
 
                     if(!info.isRegistered && info.AttackAbility == this)
                     {
+                        if(debug)
+                        {
+                            Debug.Log(this.name + " registered: " + stateInfo.normalizedTime);
+                        }
                         info.Register(this);
                     }
                 }
@@ -80,6 +85,11 @@ namespace ActionPlatformer.Control
                     {
                         info.isFinished = true;
                         info.GetComponent<PoolObject>().TurnOff();
+
+                        if (debug)
+                        {
+                            Debug.Log(this.name + " registered: " + stateInfo.normalizedTime);
+                        }
                     }
                 }
             }
@@ -103,6 +113,7 @@ namespace ActionPlatformer.Control
 
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
+            animator.SetBool(TransitionParameter.Attack.ToString(), false);
             ClearAttack();
         }
 
