@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ActionPlatformer.Camera
+namespace ActionPlatformer.GameCamera
 {
     public enum CameraTrigger
     {

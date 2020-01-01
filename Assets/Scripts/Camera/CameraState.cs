@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ActionPlatformer.Camera
+namespace ActionPlatformer.GameCamera
 {
     public class CameraState : StateMachineBehaviour
     {

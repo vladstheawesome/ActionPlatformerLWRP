@@ -1,4 +1,5 @@
-﻿using ActionPlatformer.Core;
+﻿using ActionPlatformer.CharacterSelect;
+using ActionPlatformer.Core;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,18 +15,25 @@ namespace ActionPlatformer.Control
         Attack,
     }
 
+    public enum GameScenes
+    {
+        CharacterSelect,
+        Sandbox01
+    }
+
     public class CharacterControl : MonoBehaviour
     {
+        public PlayableCharacterType playableCharacterType;
         public Animator SkinnedMeshAnimator;
         public bool MoveRight;
         public bool MoveLeft;
         public bool Jump;
         public bool Attack;
+
         public GameObject ColliderEdgePrefab;
         public List<GameObject> BottomSpheres = new List<GameObject>();
         public List<GameObject> FrontSpheres = new List<GameObject>();
         public List<Collider> RagdollParts = new List<Collider>();
-        //public List<Collider> CollidingParts = new List<Collider>();
 
         public float GravityMultiplier;
         public float PullMultiplier;
@@ -49,18 +57,28 @@ namespace ActionPlatformer.Control
         {
             bool SwitchBack = false;
 
-            if(!IsFacingForward())
+            if (!IsFacingForward())
             {
                 SwitchBack = true;
             }
 
             FaceForward(true);
-            //SetRagdollParts();
             SetColliderSpheres();
 
             if (SwitchBack)
             {
                 FaceForward(false);
+            }
+
+            SetCharacterIdleStates(); // each type of character has its own idle state
+            RegisterCharacter();
+        }
+
+        private void RegisterCharacter()
+        {
+            if (!CharacterManager.Instance.Characters.Contains(this))
+            {
+                CharacterManager.Instance.Characters.Add(this);
             }
         }
 
@@ -193,6 +211,11 @@ namespace ActionPlatformer.Control
 
         public void FaceForward(bool forward)
         {
+            if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Equals(GameScenes.CharacterSelect.ToString()))
+            {
+                return;
+            }
+
             if(forward)
             {
                 transform.rotation = Quaternion.Euler(0f, 0f, 0f);
@@ -212,6 +235,24 @@ namespace ActionPlatformer.Control
             else
             {
                 return false;
+            }
+        }
+
+        private void SetCharacterIdleStates()
+        {
+            if (playableCharacterType == PlayableCharacterType.RED)
+            {
+                SkinnedMeshAnimator.SetBool("BouncingFightIdle", true);
+            }
+
+            if (playableCharacterType == PlayableCharacterType.GREEN)
+            {
+                SkinnedMeshAnimator.SetBool("FightingIdle", true);
+            }
+
+            if (playableCharacterType == PlayableCharacterType.YELLOW)
+            {
+                SkinnedMeshAnimator.SetBool("FightStanceIdle", true);
             }
         }
     }

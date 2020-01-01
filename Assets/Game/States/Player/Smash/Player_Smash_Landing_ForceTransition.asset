@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 524fd503af54f084aa705334cd09287f, type: 3}
   m_Name: Player_Smash_Landing_ForceTransition
   m_EditorClassIdentifier: 
-  TransitionTiming: 0
+  TransitionTiming: 0.99
