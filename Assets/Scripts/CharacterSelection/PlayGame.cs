@@ -7,13 +7,13 @@ namespace ActionPlatformer.CharacterSelect
 {
     public class PlayGame : MonoBehaviour
     {
-        public CharacterSelect characterSelect;
+        public CharacterSelection characterSelection;
 
         private void Update()
         {
             if(Input.GetKeyDown(KeyCode.Return))
             {
-                if (characterSelect.SelectedCharacterType != PlayableCharacterType.NONE)
+                if (characterSelection.SelectedCharacterType != PlayableCharacterType.NONE)
                 {
                     UnityEngine.SceneManagement.SceneManager.LoadScene(GameScenes.Sandbox01.ToString());
                 }

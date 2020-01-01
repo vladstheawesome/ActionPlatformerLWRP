@@ -14,7 +14,7 @@ namespace ActionPlatformer.CharacterSelect
     }
 
     [CreateAssetMenu(fileName = "characterSelect", menuName = "ActionPlatformer/CharacterSelect/CharacterSelect")]
-    public class CharacterSelect : ScriptableObject
+    public class CharacterSelection : ScriptableObject
     {
         public PlayableCharacterType SelectedCharacterType;
     }

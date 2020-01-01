@@ -70,7 +70,7 @@ namespace ActionPlatformer.Control
                 FaceForward(false);
             }
 
-            SetCharacterIdleStates(); // each type of character has its own idle state
+            //SetCharacterIdleStates(); // each type of character has its own idle state
             RegisterCharacter();
         }
 
@@ -236,6 +236,19 @@ namespace ActionPlatformer.Control
             {
                 return false;
             }
+        }
+
+        public Collider GetBodyPart(string name)
+        {
+            foreach(Collider c in RagdollParts)
+            {
+                if(c.name.Contains(name))
+                {
+                    return c;
+                }
+            }
+
+            return null;
         }
 
         private void SetCharacterIdleStates()

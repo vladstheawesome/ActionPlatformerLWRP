@@ -11,13 +11,13 @@ namespace ActionPlatformer.CharacterSelect
         Ray ray;
         RaycastHit hit;
         public PlayableCharacterType selectedCharacterType;
-        public CharacterSelect characterSelect;
+        public CharacterSelection characterSelection;
         CharacterSelectLight characterSelectLight;
         CharacterHoverLight characterHoverLight;
 
         private void Awake()
         {
-            characterSelect.SelectedCharacterType = PlayableCharacterType.NONE;
+            characterSelection.SelectedCharacterType = PlayableCharacterType.NONE;
             characterSelectLight = GameObject.FindObjectOfType<CharacterSelectLight>();
             characterHoverLight = GameObject.FindObjectOfType<CharacterHoverLight>();
         }
@@ -44,13 +44,13 @@ namespace ActionPlatformer.CharacterSelect
             {
                 if (selectedCharacterType != PlayableCharacterType.NONE)
                 {
-                    characterSelect.SelectedCharacterType = selectedCharacterType;
+                    characterSelection.SelectedCharacterType = selectedCharacterType;
                     characterSelectLight.transform.position = characterHoverLight.transform.position;
                     characterSelectLight.light.enabled = true;
                 }
                 else
                 {
-                    characterSelect.SelectedCharacterType = PlayableCharacterType.NONE;
+                    characterSelection.SelectedCharacterType = PlayableCharacterType.NONE;
                     characterSelectLight.light.enabled = false;
                 }
             }
