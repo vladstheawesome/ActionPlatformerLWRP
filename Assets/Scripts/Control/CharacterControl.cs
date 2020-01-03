@@ -13,6 +13,7 @@ namespace ActionPlatformer.Control
         ForceTransition,
         Grounded,
         Attack,
+        ClickAnimation,
     }
 
     public enum GameScenes
