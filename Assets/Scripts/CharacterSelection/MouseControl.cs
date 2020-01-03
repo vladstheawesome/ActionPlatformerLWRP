@@ -14,12 +14,16 @@ namespace ActionPlatformer.CharacterSelect
         public CharacterSelection characterSelection;
         CharacterSelectLight characterSelectLight;
         CharacterHoverLight characterHoverLight;
+        GameObject whiteSelection;
 
         private void Awake()
         {
             characterSelection.SelectedCharacterType = PlayableCharacterType.NONE;
             characterSelectLight = GameObject.FindObjectOfType<CharacterSelectLight>();
             characterHoverLight = GameObject.FindObjectOfType<CharacterHoverLight>();
+
+            whiteSelection = GameObject.Find("WhiteSelection");
+            whiteSelection.SetActive(false);
         }
 
         private void Update()
@@ -49,11 +53,16 @@ namespace ActionPlatformer.CharacterSelect
                     CharacterControl control = CharacterManager.Instance.GetCharacter(selectedCharacterType);
                     characterSelectLight.transform.parent = control.SkinnedMeshAnimator.transform;
                     characterSelectLight.light.enabled = true;
+
+                    whiteSelection.SetActive(true);
+                    whiteSelection.transform.parent = control.SkinnedMeshAnimator.transform;
+                    whiteSelection.transform.localPosition = new Vector3(0f, -0.05f, 0f);                    
                 }
                 else
                 {
                     characterSelection.SelectedCharacterType = PlayableCharacterType.NONE;
                     characterSelectLight.light.enabled = false;
+                    whiteSelection.SetActive(false);
                 }
 
                 foreach(CharacterControl c in CharacterManager.Instance.Characters)
