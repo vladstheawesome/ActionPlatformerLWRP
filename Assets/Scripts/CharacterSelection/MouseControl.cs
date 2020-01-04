@@ -15,6 +15,7 @@ namespace ActionPlatformer.CharacterSelect
         CharacterSelectLight characterSelectLight;
         CharacterHoverLight characterHoverLight;
         GameObject whiteSelection;
+        Animator characterSelectCamAnimator;
 
         private void Awake()
         {
@@ -24,6 +25,8 @@ namespace ActionPlatformer.CharacterSelect
 
             whiteSelection = GameObject.Find("WhiteSelection");
             whiteSelection.SetActive(false);
+
+            characterSelectCamAnimator = GameObject.Find("CharacterSelectCameraController").GetComponent<Animator>();
         }
 
         private void Update()
@@ -76,6 +79,8 @@ namespace ActionPlatformer.CharacterSelect
                         c.SkinnedMeshAnimator.SetBool(TransitionParameter.ClickAnimation.ToString(), false);
                     }
                 }
+
+                characterSelectCamAnimator.SetBool(selectedCharacterType.ToString(), true);
             }
         }
     }
