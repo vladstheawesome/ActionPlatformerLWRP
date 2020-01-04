@@ -7,23 +7,26 @@ namespace ActionPlatformer.Core
     public class LedgeChecker : MonoBehaviour
     {
         public bool IsGrabbingLedge;
-        Ledge ledge = null;
+        public Ledge GrabbedLedge;
+        Ledge CheckedLedge = null;
 
         private void OnTriggerEnter(Collider other)
         {
-            ledge = other.gameObject.GetComponent<Ledge>();
-            if (ledge != null)
+            CheckedLedge = other.gameObject.GetComponent<Ledge>();
+            if (CheckedLedge != null)
             {
                  IsGrabbingLedge = true;
+                GrabbedLedge = CheckedLedge;
             }
         }
 
         private void OnTriggerExit(Collider other)
         {
-            ledge = other.gameObject.GetComponent<Ledge>();
-            if (ledge != null)
+            CheckedLedge = other.gameObject.GetComponent<Ledge>();
+            if (CheckedLedge != null)
             {
                 IsGrabbingLedge = false;
+                GrabbedLedge = null;
             }
         }
     }
