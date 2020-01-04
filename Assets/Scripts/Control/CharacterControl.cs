@@ -14,6 +14,7 @@ namespace ActionPlatformer.Control
         Grounded,
         Attack,
         ClickAnimation,
+        TransitionIndex,
     }
 
     public enum GameScenes
@@ -26,10 +27,13 @@ namespace ActionPlatformer.Control
     {
         public PlayableCharacterType playableCharacterType;
         public Animator SkinnedMeshAnimator;
+        public bool MoveUp;
+        public bool MoveDown;
         public bool MoveRight;
         public bool MoveLeft;
         public bool Jump;
         public bool Attack;
+        public LedgeChecker ledgeChecker;
 
         public GameObject ColliderEdgePrefab;
         public List<GameObject> BottomSpheres = new List<GameObject>();
@@ -70,6 +74,8 @@ namespace ActionPlatformer.Control
             {
                 FaceForward(false);
             }
+
+            ledgeChecker = GetComponentInChildren<LedgeChecker>();
 
             //SetCharacterIdleStates(); // each type of character has its own idle state
             RegisterCharacter();

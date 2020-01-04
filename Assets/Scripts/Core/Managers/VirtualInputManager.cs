@@ -6,6 +6,8 @@ namespace ActionPlatformer.Core
 {
     public class VirtualInputManager : Singleton<VirtualInputManager>
     {
+        public bool MoveUp;
+        public bool MoveDown;
         public bool MoveRight;
         public bool MoveLeft;
         public bool Jump;
