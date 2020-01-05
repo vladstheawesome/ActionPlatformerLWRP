@@ -7,5 +7,6 @@ namespace ActionPlatformer.Core
     public class Ledge : MonoBehaviour
     {
         public Vector3 Offset;
+        public Vector3 EndPosition;
     }
 }

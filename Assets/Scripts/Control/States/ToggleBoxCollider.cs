@@ -37,9 +37,9 @@ namespace ActionPlatformer.Control
 
         private void OnToggleBoxCollider(CharacterControl control)
         {
-            //control.RIGID_BODY.velocity = Vector3.zero; // stop player floating from previous jump velocity
+            control.RIGID_BODY.velocity = Vector3.zero; // stop player floating from previous jump velocity
             //control.RIGID_BODY.useGravity = On;
-            control.GetComponent<BoxCollider>().enabled = false;
+            control.GetComponent<BoxCollider>().enabled = On;
         }
     }
 }

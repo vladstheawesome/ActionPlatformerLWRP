@@ -26,7 +26,7 @@ namespace ActionPlatformer.Core
             if (CheckedLedge != null)
             {
                 IsGrabbingLedge = false;
-                GrabbedLedge = null;
+                //GrabbedLedge = null;
             }
         }
     }
