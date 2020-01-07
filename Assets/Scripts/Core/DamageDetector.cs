@@ -94,7 +94,10 @@ namespace ActionPlatformer.Core
 
         private void TakeDamage(AttackInfo info)
         {
-            CameraManager.Instance.ShakeCamera(0.35f);
+            if (info.MustCollide)
+            {
+                CameraManager.Instance.ShakeCamera(0.2f);
+            }
 
             Debug.Log(info.Attacker.gameObject.name + " hits: " + this.gameObject.name);
             Debug.Log(this.gameObject.name + " hit in " + DamagedPart.ToString());
