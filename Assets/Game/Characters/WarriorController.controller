@@ -909,6 +909,7 @@ MonoBehaviour:
   ListAbilityData:
   - {fileID: 11400000, guid: 8edbeaf14a37e5246842bbfc58321af9, type: 2}
   - {fileID: 11400000, guid: b6101e3bd6a08c146becaeb9d02f1ab9, type: 2}
+  - {fileID: 11400000, guid: ca749371543b3624cbf22cae74174e3a, type: 2}
 --- !u!114 &-2168879675846478994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1834,7 +1835,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HammerDown
-  m_Speed: 1.5
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 738890121274893353}

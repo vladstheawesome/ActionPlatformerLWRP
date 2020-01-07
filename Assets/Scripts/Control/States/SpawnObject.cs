@@ -1,4 +1,5 @@
 ﻿using ActionPlatformer.Core;
+using ActionPlatformer.PooledObjects;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,9 +9,11 @@ namespace ActionPlatformer.Control
     [CreateAssetMenu(fileName = "New State", menuName = "ActionPlatformer/AbilityData/SpawnObject")]
     public class SpawnObject : StateData
     {
+        public PoolObjectType ObjectType;
         [Range(0f, 1f)]
         public float SpawnTiming;
         public string ParentObjectName = string.Empty; // Boby name we want to attach the object to
+        public bool StrickToParent;
 
         private bool IsSpawned;
 
@@ -44,8 +47,7 @@ namespace ActionPlatformer.Control
 
         private void SpawnObj(CharacterControl control)
         {
-            GameObject obj = PoolManager.Instance.GetObject(PooledObjects.PoolObjectType.HAMMER); // Get Hammer Object from resources
-            
+            GameObject obj = PoolManager.Instance.GetObject(ObjectType); // Get Hammer Object from resources            
 
             if (!string.IsNullOrEmpty(ParentObjectName))
             {
@@ -53,6 +55,11 @@ namespace ActionPlatformer.Control
                 obj.transform.parent = p.transform;
                 obj.transform.localPosition = Vector3.zero;
                 obj.transform.localRotation = Quaternion.identity;
+            }
+
+            if(!StrickToParent)
+            {
+                obj.transform.parent = null;
             }
 
             obj.SetActive(true);

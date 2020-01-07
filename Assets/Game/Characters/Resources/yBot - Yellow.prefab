@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 213123683}
   - component: {fileID: 213123682}
   - component: {fileID: 213123685}
+  - component: {fileID: 1740872908}
   m_Layer: 0
   m_Name: LedgeChecker
   m_TagString: Untagged
@@ -107,6 +108,81 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsGrabbingLedge: 0
   GrabbedLedge: {fileID: 0}
+--- !u!114 &1740872908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213123680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f03528a9f3c824bab887516e7470d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generalBodyPart: 0
+  CollidingParts: []
+--- !u!1 &757893827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 757893828}
+  m_Layer: 0
+  m_Name: HammerDown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &757893828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757893827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1937553714}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1937553713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1937553714}
+  m_Layer: 0
+  m_Name: Effects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1937553714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937553713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 757893828}
+  m_Father: {fileID: 7198515055300973108}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108123440768055017
 GameObject:
   m_ObjectHideFlags: 0
@@ -3113,6 +3189,7 @@ Transform:
   m_Children:
   - {fileID: 4622409157308220009}
   - {fileID: 213123681}
+  - {fileID: 1937553714}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3149,7 +3226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad1c49daa1203a4caf4fc6e3da3ae75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playableCharacterType: 4
+  playableCharacterType: 0
   SkinnedMeshAnimator: {fileID: 3363093133717548819}
   MoveUp: 0
   MoveDown: 0
@@ -3162,20 +3239,7 @@ MonoBehaviour:
     type: 3}
   BottomSpheres: []
   FrontSpheres: []
-  RagdollParts:
-  - {fileID: 525899230488404067}
-  - {fileID: 5233113156182876579}
-  - {fileID: 3284810136949030276}
-  - {fileID: 3952820233486691950}
-  - {fileID: 8061153003478474552}
-  - {fileID: 2518298850263468379}
-  - {fileID: 3726469961131861804}
-  - {fileID: 3692781688583289904}
-  - {fileID: 1629337477901173510}
-  - {fileID: 3106891042992530647}
-  - {fileID: 2510165419609396256}
-  - {fileID: 7074865538879599051}
-  - {fileID: 2305079526707240712}
+  RagdollParts: []
   GravityMultiplier: 0
   PullMultiplier: 0
 --- !u!114 &7199473640970729132
