@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game Character Selection/RB_Scenes/CharacterSelect.unity
+    path: Assets/Game RB/RB_Scenes/CharacterSelect.unity
     guid: 9748b6e9880114b46a2e24ff4ec7c432
   - enabled: 1
     path: Assets/Scenes/Sandbox01.unity

@@ -44,6 +44,7 @@ namespace ActionPlatformer.Control
         public float PullMultiplier;
 
         private List<TriggerDetector> TriggerDetectors = new List<TriggerDetector>();
+        private Dictionary<string, GameObject> ChildObjects = new Dictionary<string, GameObject>();
 
         private Rigidbody rigid;
         public Rigidbody RIGID_BODY
@@ -252,6 +253,27 @@ namespace ActionPlatformer.Control
                 if(c.name.Contains(name))
                 {
                     return c;
+                }
+            }
+
+            return null;
+        }
+
+        public GameObject GetChildObj(string name)
+        {
+            if (ChildObjects.ContainsKey(name))
+            {
+                return ChildObjects[name];
+            }
+
+            Transform[] arr = this.gameObject.GetComponentsInChildren<Transform>();
+            
+            foreach(Transform t in arr)
+            {
+                if (t.gameObject.name.Equals(name))
+                {
+                    ChildObjects.Add(name, t.gameObject);
+                    return t.gameObject;
                 }
             }
 
