@@ -53,6 +53,15 @@ namespace ActionPlatformer.Core
                     continue;
                 }
 
+                if (info.MustFaceAttacker)
+                {
+                    Vector3 vec = this.transform.position - info.Attacker.transform.position;
+                    if(vec.z * info.Attacker.transform.forward.z < 0f)
+                    {
+                        continue;
+                    }
+                }
+
                 if (info.MustCollide)
                 {
                     if (IsCollided(info))
