@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Death_Uppercut
   m_EditorClassIdentifier: 
   GeneralBodyParts: 
-  Animator: {fileID: 9100000, guid: a36a54bd47beb27498d0950d2391b7dd, type: 2}
+  Animator: {fileID: 9100000, guid: 284101db5e2d4104a9cc6c956e4bf25d, type: 2}
   deathType: 1
   IsFacingAttacker: 0

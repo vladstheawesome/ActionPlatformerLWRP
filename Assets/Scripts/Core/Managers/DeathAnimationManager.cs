@@ -30,35 +30,29 @@ namespace ActionPlatformer.Core
 
             foreach (DeathAnimationData data in deathAnimationLoader.DeathAnimationList)
             {
-                if (info.LaunchIntoAir)
+                if(info.deathType == data.deathType)
                 {
-                    if(data.LaunchIntoAir)
+                    if(info.deathType != DeathType.NONE)
                     {
                         Candidates.Add(data.Animator);
                     }
-                }
-                else if(!info.MustCollide)
-                {
-                    foreach (GeneralBodyPart part in data.GeneralBodyParts)
+                    else if (!info.MustCollide)
+                    {                       
+                        Candidates.Add(data.Animator);
+                        break;                        
+                    }
+                    else
                     {
-                        if (part == GeneralBodyPart.Lower || part == GeneralBodyPart.Leg)
+                        foreach (GeneralBodyPart part in data.GeneralBodyParts)
                         {
-                            Candidates.Add(data.Animator);
-                            break;
+                            if (part == generalBodyPart)
+                            {
+                                Candidates.Add(data.Animator);
+                                break;
+                            }
                         }
                     }
-                }
-                else
-                {
-                    foreach (GeneralBodyPart part in data.GeneralBodyParts)
-                    {
-                        if (part == generalBodyPart)
-                        {
-                            Candidates.Add(data.Animator);
-                            break;
-                        }
-                    }
-                }                
+                }                    
             }
 
             return Candidates[Random.Range(0, Candidates.Count)];

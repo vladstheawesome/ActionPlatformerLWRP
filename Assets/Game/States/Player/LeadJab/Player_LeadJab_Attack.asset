@@ -16,12 +16,10 @@ MonoBehaviour:
   StartAttackTime: 0.15
   EndAttackTime: 0.45
   ColliderNames:
-  - hand_l
+  - LeftHand
   - mixamorig:LeftHand
-  LaunchIntoAir: 0
+  deathType: 0
   MustCollide: 1
   MustFaceAttacker: 0
   LethalRange: 0
   MaxHits: 1
-  FinishedAttacks:
-  - {fileID: 0}

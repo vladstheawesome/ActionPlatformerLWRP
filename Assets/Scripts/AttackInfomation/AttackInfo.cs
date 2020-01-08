@@ -1,4 +1,5 @@
 ﻿using ActionPlatformer.Control;
+using ActionPlatformer.Death;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +11,7 @@ namespace ActionPlatformer.AttackInfomation
         public CharacterControl Attacker = null;
         public Attack AttackAbility;
         public List<string> ColliderNames = new List<string>(); // names for the body parts that are going to carry the attack
-        public bool LaunchIntoAir;
+        public DeathType deathType;
         public bool MustCollide;
         public bool MustFaceAttacker;
         public float LethalRange;
@@ -26,7 +27,7 @@ namespace ActionPlatformer.AttackInfomation
             isFinished = false;
             AttackAbility = attack; // attack should know what ability its based on
             Attacker = attacker;
-            MustCollide = attack.MustCollide;
+            //MustCollide = attack.MustCollide;
         }
 
         public void Register(Attack attack)
@@ -35,7 +36,7 @@ namespace ActionPlatformer.AttackInfomation
 
             AttackAbility = attack;
             ColliderNames = attack.ColliderNames;
-            LaunchIntoAir = attack.LaunchIntoAir;
+            deathType = attack.deathType;
             MustCollide = attack.MustCollide;
             MustFaceAttacker = attack.MustFaceAttacker;
             LethalRange = attack.LethalRange;
