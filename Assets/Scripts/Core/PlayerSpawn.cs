@@ -47,12 +47,12 @@ namespace ActionPlatformer.Core
             {
                 CharacterControl control = CharacterManager.Instance.GetCharacter(characterSelection.SelectedCharacterType);
 
-                if (control.GetBodyPart("Spine1"))
-                {
+                //if (control.GetBodyPart("Spine1"))
+                //{
                     Collider targetA = control.GetBodyPart("Spine1");
                     v.LookAt = targetA.transform;
                     v.Follow = targetA.transform;
-                }
+                //}
 
                 //else
                 //{

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6faa0c623d6a63349ae57f0e9d6d0529, type: 3}
-  m_Name: UppercutDeath
+  m_Name: Death_SoccerTackle_GroundShock
   m_EditorClassIdentifier: 
   GeneralBodyParts: 
-  Animator: {fileID: 9100000, guid: 284101db5e2d4104a9cc6c956e4bf25d, type: 2}
-  LaunchIntoAir: 1
-  IsFacingAttacker: 0
+  Animator: {fileID: 9100000, guid: 1ad6aac27b06e6749aeaa3ad2e8183c4, type: 2}
+  deathType: 2
+  IsFacingAttacker: 1

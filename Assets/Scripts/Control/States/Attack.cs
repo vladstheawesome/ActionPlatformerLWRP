@@ -62,7 +62,7 @@ namespace ActionPlatformer.Control
                     {
                         if(debug)
                         {
-                            //Debug.Log(this.name + " registered: " + stateInfo.normalizedTime);
+                            Debug.Log(this.name + " registered: " + stateInfo.normalizedTime);
                         }
                         info.Register(this);
                     }
@@ -88,7 +88,7 @@ namespace ActionPlatformer.Control
 
                         if (debug)
                         {
-                            //Debug.Log(this.name + " registered: " + stateInfo.normalizedTime);
+                            Debug.Log(this.name + " de-registered: " + stateInfo.normalizedTime);
                         }
                     }
                 }
