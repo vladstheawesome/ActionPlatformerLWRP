@@ -12,11 +12,9 @@ namespace ActionPlatformer.Control
         public PoolObjectType ObjectType;
         [Range(0f, 1f)]
         public float SpawnTiming;
-        public string ParentObjectName = string.Empty; // Boby name we want to attach the object to
+        public string ParentObjectName = string.Empty; // Body name we want to attach the object to
         public bool StrickToParent;
-
-        //private bool IsSpawned;
-
+        
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             if(SpawnTiming == 0f)

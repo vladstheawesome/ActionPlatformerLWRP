@@ -97,7 +97,7 @@ namespace ActionPlatformer.Control
                         break;
                     case TransitionConditionType.ATTACK:
                         {
-                            if (!control.Attack)
+                            if (!control.animationProgress.AttackTriggered /*!control.Attack*/)
                             {
                                 return false;
                             }

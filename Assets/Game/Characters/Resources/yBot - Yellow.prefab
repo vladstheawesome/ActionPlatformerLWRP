@@ -3236,6 +3236,7 @@ MonoBehaviour:
   Jump: 0
   Attack: 0
   ledgeChecker: {fileID: 0}
+  animationProgress: {fileID: 0}
   ColliderEdgePrefab: {fileID: 1084219484595157386, guid: 729d04e47d3a028469fa1a1216ddf5e6,
     type: 3}
   BottomSpheres: []
@@ -3326,6 +3327,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f10d38bc5a39784883abe45cd18bb82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Jumped: 0
+  CameraShaken: 0
+  PoolObjectList: 
+  AttackTriggered: 0
+  MaxPressTime: 0.1
 --- !u!1 &7213782182656917228
 GameObject:
   m_ObjectHideFlags: 0

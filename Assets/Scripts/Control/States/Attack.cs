@@ -103,7 +103,7 @@ namespace ActionPlatformer.Control
                 if (stateInfo.normalizedTime < EndAttackTime + ((EndAttackTime - StartAttackTime) / 2f))
                 {
                     CharacterControl control = characterState.GetCharacterControl(animator);
-                    if (control.Attack)
+                    if (control.animationProgress.AttackTriggered /*control.Attack*/)
                     {
                         //Debug.Log("Uppercut Triggered");
                         animator.SetBool(TransitionParameter.Attack.ToString(), true);

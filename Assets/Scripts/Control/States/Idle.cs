@@ -19,7 +19,7 @@ namespace ActionPlatformer.Control
         {
             CharacterControl control = characterState.GetCharacterControl(animator);
 
-            if(control.Attack)
+            if(control.animationProgress.AttackTriggered /*control.Attack*/)
             {
                 animator.SetBool(TransitionParameter.Attack.ToString(), true);
             }
@@ -42,7 +42,7 @@ namespace ActionPlatformer.Control
 
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            animator.SetBool(TransitionParameter.Attack.ToString(), false);
+            //animator.SetBool(TransitionParameter.Attack.ToString(), false);
         }
     }
 }
