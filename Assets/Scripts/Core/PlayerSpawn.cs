@@ -46,26 +46,10 @@ namespace ActionPlatformer.Core
             foreach(Cinemachine.CinemachineVirtualCamera v in arr)
             {
                 CharacterControl control = CharacterManager.Instance.GetCharacter(characterSelection.SelectedCharacterType);
+                Collider targetA = control.GetBodyPart("Spine1");
 
-                //if (control.GetBodyPart("Spine1"))
-                //{
-                    Collider targetA = control.GetBodyPart("Spine1");
-                    v.LookAt = targetA.transform;
-                    v.Follow = targetA.transform;
-                //}
-
-                //else
-                //{
-                //    //Collider targetB = control.GetBodyPart("spine_01");
-                //    //obj.GetComponentInChildren<GameObject>
-                //    //v.LookAt = targetB.transform;
-                //    //v.Follow = targetB.transform;
-
-                //    var warriorSpine = obj.transform.Find("spine_01").GetComponentsInChildren<GameObject>();
-
-                //    v.LookAt = obj.transform;
-                //    v.Follow = obj.transform;
-                //}
+                v.LookAt = targetA.transform;
+                v.Follow = targetA.transform;                
             }
         }
     }

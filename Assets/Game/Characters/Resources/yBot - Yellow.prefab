@@ -3169,6 +3169,7 @@ GameObject:
   - component: {fileID: 7199473640884908302}
   - component: {fileID: 2217124918068040343}
   - component: {fileID: 5239324073712643884}
+  - component: {fileID: 5313592931693533075}
   m_Layer: 0
   m_Name: yBot - Yellow
   m_TagString: Untagged
@@ -3226,7 +3227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad1c49daa1203a4caf4fc6e3da3ae75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playableCharacterType: 0
+  playableCharacterType: 4
   SkinnedMeshAnimator: {fileID: 3363093133717548819}
   MoveUp: 0
   MoveDown: 0
@@ -3239,7 +3240,21 @@ MonoBehaviour:
     type: 3}
   BottomSpheres: []
   FrontSpheres: []
-  RagdollParts: []
+  RagdollParts:
+  - {fileID: 525899230488404067}
+  - {fileID: 5233113156182876579}
+  - {fileID: 3284810136949030276}
+  - {fileID: 3952820233486691950}
+  - {fileID: 8061153003478474552}
+  - {fileID: 2518298850263468379}
+  - {fileID: 3726469961131861804}
+  - {fileID: 3692781688583289904}
+  - {fileID: 1629337477901173510}
+  - {fileID: 3106891042992530647}
+  - {fileID: 2510165419609396256}
+  - {fileID: 7074865538879599051}
+  - {fileID: 2305079526707240712}
+  - {fileID: 213123682}
   GravityMultiplier: 0
   PullMultiplier: 0
 --- !u!114 &7199473640970729132
@@ -3296,6 +3311,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e375c4749ce5066498022be5f8d4c286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageTaken: 0
+--- !u!114 &5313592931693533075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7200667830176523006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f10d38bc5a39784883abe45cd18bb82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7213782182656917228
