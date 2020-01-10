@@ -15,6 +15,7 @@ namespace ActionPlatformer.Control
         Attack,
         ClickAnimation,
         TransitionIndex,
+        Turbo,
     }
 
     public enum GameScenes
@@ -27,6 +28,7 @@ namespace ActionPlatformer.Control
     {
         public PlayableCharacterType playableCharacterType;
         public Animator SkinnedMeshAnimator;
+        public bool Turbo;
         public bool MoveUp;
         public bool MoveDown;
         public bool MoveRight;

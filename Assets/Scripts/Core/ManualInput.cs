@@ -17,6 +17,15 @@ namespace ActionPlatformer.Core
         // Update is called once per frame
         void Update()
         {
+            if (VirtualInputManager.Instance.Turbo)
+            {
+                characterControl.Turbo = true;
+            }
+            else
+            {
+                characterControl.Turbo = false;
+            }
+
             if (VirtualInputManager.Instance.MoveUp)
             {
                 characterControl.MoveUp = true;
