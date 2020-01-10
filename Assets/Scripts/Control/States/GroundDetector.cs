@@ -55,7 +55,9 @@ namespace ActionPlatformer.Control
                     if (Physics.Raycast(o.transform.position, -Vector3.up, out hit, Distance))
                     {
                         // Raycast should not be responding to player's own body parts
-                        if (!control.RagdollParts.Contains(hit.collider) && !Ledge.IsLedge(hit.collider.gameObject))
+                        if (!control.RagdollParts.Contains(hit.collider) 
+                            && !Ledge.IsLedge(hit.collider.gameObject)
+                            && !Ledge.IsLedgeCheker(hit.collider.gameObject))
                         {
                             return true;
                         }

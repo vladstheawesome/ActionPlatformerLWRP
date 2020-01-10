@@ -127,7 +127,8 @@ namespace ActionPlatformer.Core
 
             // when player(enemy) dies we want to turn off the box collider
             control.GetComponent<BoxCollider>().enabled = false;
-            control.RIGID_BODY.useGravity = false;
+            control.ledgeChecker.GetComponent<BoxCollider>().enabled = false;
+            control.RIGID_BODY.useGravity = false;          
 
             DamageTaken++;
         }

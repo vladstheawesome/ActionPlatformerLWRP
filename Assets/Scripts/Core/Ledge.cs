@@ -18,5 +18,15 @@ namespace ActionPlatformer.Core
 
             return true;
         }
+
+        public static bool IsLedgeCheker(GameObject obj)
+        {
+            if (obj.GetComponent<LedgeChecker>() == null)
+            {
+                return false;
+            }
+
+            return true;
+        }
     }
 }
