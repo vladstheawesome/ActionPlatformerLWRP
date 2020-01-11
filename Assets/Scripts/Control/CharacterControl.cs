@@ -16,6 +16,7 @@ namespace ActionPlatformer.Control
         ClickAnimation,
         TransitionIndex,
         Turbo,
+        Turn,
     }
 
     public enum GameScenes

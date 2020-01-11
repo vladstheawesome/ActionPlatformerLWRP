@@ -8,6 +8,7 @@ namespace ActionPlatformer.Control
     [CreateAssetMenu(fileName = "New State", menuName = "ActionPlatformer/AbilityData/MoveForward")]
     public class MoveForward : StateData
     {
+        public bool LockDirection;
         public bool Constant;
         public AnimationCurve SpeedGraph;
         public float Speed;
@@ -71,7 +72,6 @@ namespace ActionPlatformer.Control
 
             if (control.MoveRight)
             {
-                control.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
                 if (!CheckFront(control))
                 {
                     control.MoveForward(Speed, SpeedGraph.Evaluate(stateInfo.normalizedTime));
@@ -80,12 +80,29 @@ namespace ActionPlatformer.Control
 
             if (control.MoveLeft)
             {
-                control.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
                 if (!CheckFront(control))
                 {
                     control.MoveForward(Speed, SpeedGraph.Evaluate(stateInfo.normalizedTime));
                 }
             }
+
+            CheckTurn(control);
+        }
+
+        private void CheckTurn(CharacterControl control)
+        {
+            if (!LockDirection)
+            {
+                if (control.MoveRight)
+                {
+                    control.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+                }
+
+                if (control.MoveLeft)
+                {
+                    control.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+                }
+            }            
         }
 
         bool CheckFront(CharacterControl control)
