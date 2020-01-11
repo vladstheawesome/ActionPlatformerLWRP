@@ -13,6 +13,7 @@ namespace ActionPlatformer.Core
         public List<PoolObjectType> PoolObjectList = new List<PoolObjectType>();
         public bool AttackTriggered;
         public float MaxPressTime;
+        public bool disallowEartlyTurn;
 
         private CharacterControl control;
         private float PressTime;

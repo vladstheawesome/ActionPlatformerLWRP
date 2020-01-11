@@ -8,6 +8,7 @@ namespace ActionPlatformer.Control
     [CreateAssetMenu(fileName = "New State", menuName = "ActionPlatformer/AbilityData/MoveForward")]
     public class MoveForward : StateData
     {
+        public bool AllowEarlyTurn;
         public bool LockDirection;
         public bool Constant;
         public AnimationCurve SpeedGraph;
@@ -17,7 +18,21 @@ namespace ActionPlatformer.Control
 
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            
+            CharacterControl control = characterState.GetCharacterControl(animator);
+
+            if (AllowEarlyTurn && !control.animationProgress.disallowEartlyTurn)
+            {
+                if(control.MoveLeft)
+                {
+                    control.FaceForward(false);
+                }
+                if (control.MoveRight)
+                {
+                    control.FaceForward(true);
+                }
+            }
+
+            control.animationProgress.disallowEartlyTurn = false;
         }
 
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)

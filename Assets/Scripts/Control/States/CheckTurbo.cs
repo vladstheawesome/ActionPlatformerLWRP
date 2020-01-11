@@ -8,6 +8,8 @@ namespace ActionPlatformer.Control
     [CreateAssetMenu(fileName = "New State", menuName = "ActionPlatformer/AbilityData/CheckTurbo")]
     public class CheckTurbo : StateData
     {
+        public bool MustRequireMovement;
+
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
 
@@ -19,7 +21,21 @@ namespace ActionPlatformer.Control
 
             if(control.Turbo)
             {
-                animator.SetBool(TransitionParameter.Turbo.ToString(), true);
+                if(MustRequireMovement)
+                {
+                    if (control.MoveLeft || control.MoveRight)
+                    {
+                        animator.SetBool(TransitionParameter.Turbo.ToString(), true);
+                    }
+                    else
+                    {
+                        animator.SetBool(TransitionParameter.Turbo.ToString(), false);
+                    }
+                }
+                else
+                {
+                    animator.SetBool(TransitionParameter.Turbo.ToString(), true);
+                }
             }
             else
             {
