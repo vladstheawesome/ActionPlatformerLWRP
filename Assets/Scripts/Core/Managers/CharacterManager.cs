@@ -35,5 +35,23 @@ namespace ActionPlatformer.Core
 
             return null;
         }
+
+        public CharacterControl GetPlayableCharacter()
+        {
+            foreach (CharacterControl control in Characters)
+            {
+                ManualInput manualInput = control.GetComponent<ManualInput>();
+
+                if (manualInput != null)
+                {
+                    if (manualInput.enabled == true)
+                    {
+                        return control;
+                    }
+                }
+            }
+
+            return null;
+        }
     }
 }
