@@ -10,6 +10,7 @@ namespace ActionPlatformer.AI
     public enum AI_Walk_Transitions
     {
         start_walking,
+        jump_platform,
     }
 
     [CreateAssetMenu(fileName = "New State", menuName = "ActionPlatformer/AI/SendPathfindingAgent")]
