@@ -14,7 +14,7 @@ namespace ActionPlatformer.AI
         {
             CharacterControl control = characterState.GetCharacterControl(animator);
 
-            Vector3 dir = control.aiProgress.pathfindingAgent.StartPosition - control.transform.position;
+            Vector3 dir = control.aiProgress.pathfindingAgent.StartSphere.transform.position - control.transform.position;
 
             if (dir.z > 0f)
             {
@@ -31,7 +31,7 @@ namespace ActionPlatformer.AI
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             CharacterControl control = characterState.GetCharacterControl(animator);
-            Vector3 dist = control.aiProgress.pathfindingAgent.StartPosition - control.transform.position;
+            Vector3 dist = control.aiProgress.pathfindingAgent.StartSphere.transform.position - control.transform.position;
 
             if (Vector3.SqrMagnitude(dist) < 0.5f)
             {

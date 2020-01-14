@@ -38,7 +38,7 @@ namespace ActionPlatformer.AI
             float bottomDist = control.aiProgress.pathfindingAgent.EndSphere.transform.position.y
                 - control.FrontSpheres[0].transform.position.y;
 
-            if (topDist < 3f && bottomDist > 0.5f)
+            if (topDist < 1.5f && bottomDist > 0.5f)
             {
                 if (control.IsFacingForward())
                 {
@@ -58,6 +58,9 @@ namespace ActionPlatformer.AI
                 control.MoveLeft = false;
                 control.MoveUp = false;
                 control.Jump = false;
+
+                animator.gameObject.SetActive(false);
+                animator.gameObject.SetActive(true);
             }
         }
 

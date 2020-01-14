@@ -11,8 +11,6 @@ namespace ActionPlatformer.Core
         public GameObject target;
         NavMeshAgent navMeshAgent;
 
-        public Vector3 StartPosition;
-        public Vector3 EndPosition;
         List<Coroutine> MoveRoutines = new List<Coroutine>();
 
         public GameObject StartSphere;
@@ -54,13 +52,11 @@ namespace ActionPlatformer.Core
             {
                 if (navMeshAgent.isOnOffMeshLink)
                 {
-                    StartPosition = transform.position;
-                    StartSphere.transform.position = transform.position;
-                    navMeshAgent.CompleteOffMeshLink();
+                    StartSphere.transform.position = navMeshAgent.currentOffMeshLinkData.startPos;
+                    EndSphere.transform.position = navMeshAgent.currentOffMeshLinkData.endPos;
 
-                    yield return new WaitForEndOfFrame();
-                    EndPosition = transform.position;
-                    EndSphere.transform.position = transform.position;
+                    navMeshAgent.CompleteOffMeshLink();
+                    
                     navMeshAgent.isStopped = true;
                     StartWalk = true;
                     yield break;
@@ -69,11 +65,8 @@ namespace ActionPlatformer.Core
                 Vector3 dist = transform.position - navMeshAgent.destination;
                 if (Vector3.SqrMagnitude(dist) < 0.5f)
                 {
-                    StartPosition = transform.position;
-                    StartSphere.transform.position = transform.position;
-
-                    EndPosition = transform.position;
-                    EndSphere.transform.position = transform.position;
+                    StartSphere.transform.position = navMeshAgent.destination;
+                    EndSphere.transform.position = navMeshAgent.destination;
 
                     navMeshAgent.isStopped = true;
                     StartWalk = true;
