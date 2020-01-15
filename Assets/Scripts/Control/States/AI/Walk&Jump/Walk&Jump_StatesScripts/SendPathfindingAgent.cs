@@ -11,6 +11,7 @@ namespace ActionPlatformer.AI
     {
         start_walking,
         jump_platform,
+        fall_platform,
     }
 
     [CreateAssetMenu(fileName = "New State", menuName = "ActionPlatformer/AI/SendPathfindingAgent")]

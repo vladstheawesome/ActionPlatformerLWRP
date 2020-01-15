@@ -40,7 +40,12 @@ namespace ActionPlatformer.Core
 
             if (MoveRoutines.Count != 0)
             {
-                StopCoroutine(MoveRoutines[0]);
+                if (MoveRoutines[0] != null)
+                {
+                    StopCoroutine(MoveRoutines[0]);
+                }
+
+                MoveRoutines.RemoveAt(0);
             }
 
             MoveRoutines.Add(StartCoroutine(_Move()));
