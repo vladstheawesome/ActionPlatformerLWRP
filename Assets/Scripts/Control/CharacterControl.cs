@@ -40,6 +40,7 @@ namespace ActionPlatformer.Control
         public LedgeChecker ledgeChecker;
         public AnimationProgress animationProgress;
         public AIProgress aiProgress;
+        public DamageDetector damageDetector;
 
         public GameObject ColliderEdgePrefab;
         public List<GameObject> BottomSpheres = new List<GameObject>();
@@ -85,6 +86,7 @@ namespace ActionPlatformer.Control
             ledgeChecker = GetComponentInChildren<LedgeChecker>();
             animationProgress = GetComponent<AnimationProgress>();
             aiProgress = GetComponentInChildren<AIProgress>();
+            damageDetector = GetComponentInChildren<DamageDetector>();
 
             //SetCharacterIdleStates(); // each type of character has its own idle state
             RegisterCharacter();

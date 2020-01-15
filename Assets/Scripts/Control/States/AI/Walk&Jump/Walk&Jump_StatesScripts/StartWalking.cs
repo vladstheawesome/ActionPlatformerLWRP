@@ -68,6 +68,25 @@ namespace ActionPlatformer.AI
                         animator.gameObject.SetActive(false);
                         animator.gameObject.SetActive(true);
                     }
+                    // Temporary attack solution
+                    else
+                    {
+                        if (CharacterManager.Instance.GetPlayableCharacter().damageDetector.DamageTaken == 0)
+                        {
+                            if (control.IsFacingForward())
+                            {
+                                control.MoveRight = true;
+                                control.MoveLeft = false;
+                                control.Attack = true;
+                            }
+                            else
+                            {
+                                control.MoveRight = false;
+                                control.MoveLeft = true;
+                                control.Attack = true;
+                            }
+                        }
+                    }
                 }
             }
         }
