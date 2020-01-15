@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ActionPlatformer
 {
-    public enum RB_Layers
+    public enum ActionPlatformerLayers
     {
         PostProcessing,
         CHARACTER,

@@ -15,9 +15,9 @@ namespace ActionPlatformer
             GUI.backgroundColor = Color.green;
             if (GUILayout.Button("Add RB Default Layers"))
             {
-                RB_Layers[] arr = System.Enum.GetValues(typeof(RB_Layers)) as RB_Layers[];
+                ActionPlatformerLayers[] arr = System.Enum.GetValues(typeof(ActionPlatformerLayers)) as ActionPlatformerLayers[];
 
-                foreach(RB_Layers r in arr)
+                foreach(ActionPlatformerLayers r in arr)
                 {
                     CreateLayer(r.ToString());
                 }
@@ -36,6 +36,7 @@ namespace ActionPlatformer
                 }
 
                 Physics.IgnoreLayerCollision(dic["Default"], dic["Default"], false);
+                Physics.IgnoreLayerCollision(dic[ActionPlatformerLayers.CHARACTER.ToString()], dic["Default"], false);
 
                 Debug.Log("default collisions set");
             }
@@ -74,7 +75,7 @@ namespace ActionPlatformer
             }
         }
 
-        Dictionary<string, int> GetAllLayers()
+        public static Dictionary<string, int> GetAllLayers()
         {
             SerializedObject tagManager = new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/TagManager.asset")[0]);
             SerializedProperty layers = tagManager.FindProperty("layers");

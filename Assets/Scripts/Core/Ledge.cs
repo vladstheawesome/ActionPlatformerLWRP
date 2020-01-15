@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using ActionPlatformer.Control;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,6 +23,16 @@ namespace ActionPlatformer.Core
         public static bool IsLedgeCheker(GameObject obj)
         {
             if (obj.GetComponent<LedgeChecker>() == null)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public static bool IsCharacter(GameObject obj)
+        {
+            if (obj.transform.root.GetComponent<CharacterControl>() == null)
             {
                 return false;
             }
