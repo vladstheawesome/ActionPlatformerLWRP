@@ -10,7 +10,8 @@ namespace ActionPlatformer.AttackInfomation
     {
         public CharacterControl Attacker = null;
         public Attack AttackAbility;
-        public List<string> ColliderNames = new List<string>(); // names for the body parts that are going to carry the attack
+        //public List<string> ColliderNames = new List<string>(); // names for the body parts that are going to carry the attack
+        public List<AttackPartType> AttackParts = new List<AttackPartType>();
         public DeathType deathType;
         public bool MustCollide;
         public bool MustFaceAttacker;
@@ -35,7 +36,8 @@ namespace ActionPlatformer.AttackInfomation
             isRegistered = true;
 
             AttackAbility = attack;
-            ColliderNames = attack.ColliderNames;
+            //ColliderNames = attack.ColliderNames;
+            AttackParts = attack.AttackParts;
             deathType = attack.deathType;
             MustCollide = attack.MustCollide;
             MustFaceAttacker = attack.MustFaceAttacker;

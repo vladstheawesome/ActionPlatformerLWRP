@@ -8,13 +8,20 @@ using UnityEngine;
 
 namespace ActionPlatformer.Control
 {
+    public enum AttackPartType
+    {
+        LEFT_HAND, 
+        RIGHT_HAND,
+    }
+
     [CreateAssetMenu(fileName = "New State", menuName = "ActionPlatformer/AbilityData/Attack")]
     public class Attack : StateData
     {
         public bool debug;
         public float StartAttackTime;
         public float EndAttackTime;
-        public List<string> ColliderNames = new List<string>(); // List of body parts that the attack is using
+        //public List<string> ColliderNames = new List<string>(); // List of body parts that the attack is using
+        public List<AttackPartType> AttackParts = new List<AttackPartType>();
         public DeathType deathType;
         public bool MustCollide;
         public bool MustFaceAttacker;

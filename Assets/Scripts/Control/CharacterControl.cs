@@ -28,8 +28,7 @@ namespace ActionPlatformer.Control
 
     public class CharacterControl : MonoBehaviour
     {
-        public PlayableCharacterType playableCharacterType;
-        public Animator SkinnedMeshAnimator;
+        [Header("Input")]
         public bool Turbo;
         public bool MoveUp;
         public bool MoveDown;
@@ -37,6 +36,8 @@ namespace ActionPlatformer.Control
         public bool MoveLeft;
         public bool Jump;
         public bool Attack;
+
+        [Header("SubComponents")]
         public LedgeChecker ledgeChecker;
         public AnimationProgress animationProgress;
         public AIProgress aiProgress;
@@ -45,15 +46,22 @@ namespace ActionPlatformer.Control
         public GameObject ColliderEdgePrefab;
         public List<GameObject> BottomSpheres = new List<GameObject>();
         public List<GameObject> FrontSpheres = new List<GameObject>();
-        public List<Collider> RagdollParts = new List<Collider>();
 
+        [Header("Gravity")]
         public float GravityMultiplier;
         public float PullMultiplier;
 
+        [Header("Setup")]
+        public PlayableCharacterType playableCharacterType;
+        public Animator SkinnedMeshAnimator;
+        public List<Collider> RagdollParts = new List<Collider>();
+        public GameObject LeftHand_Attack;
+        public GameObject RightHand_Attack;
+
         private List<TriggerDetector> TriggerDetectors = new List<TriggerDetector>();
         private Dictionary<string, GameObject> ChildObjects = new Dictionary<string, GameObject>();
-
         private Rigidbody rigid;
+
         public Rigidbody RIGID_BODY
         {
             get
