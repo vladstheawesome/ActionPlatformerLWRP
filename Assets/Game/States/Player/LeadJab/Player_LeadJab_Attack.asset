@@ -18,6 +18,7 @@ MonoBehaviour:
   ColliderNames:
   - LeftHand
   - mixamorig:LeftHand
+  - hand.l
   deathType: 0
   MustCollide: 1
   MustFaceAttacker: 0
