@@ -53,7 +53,9 @@ namespace ActionPlatformer.Control
                 return;
             }
 
-            GameObject obj = PoolManager.Instance.GetObject(ObjectType);             
+            GameObject obj = PoolManager.Instance.GetObject(ObjectType);
+
+            Debug.Log("Spawning " + ObjectType.ToString() + " | looking for: " + ParentObjectName);
 
             if (!string.IsNullOrEmpty(ParentObjectName))
             {

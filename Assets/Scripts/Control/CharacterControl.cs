@@ -42,8 +42,7 @@ namespace ActionPlatformer.Control
         public AnimationProgress animationProgress;
         public AIProgress aiProgress;
         public DamageDetector damageDetector;
-
-        public GameObject ColliderEdgePrefab;
+        //public GameObject ColliderEdgePrefab;
         public List<GameObject> BottomSpheres = new List<GameObject>();
         public List<GameObject> FrontSpheres = new List<GameObject>();
 
@@ -228,7 +227,8 @@ namespace ActionPlatformer.Control
 
         public GameObject CreateEdgeSphere(Vector3 pos)
         {
-            GameObject obj = Instantiate(ColliderEdgePrefab, pos, Quaternion.identity);
+            GameObject obj = Instantiate(Resources.Load("ColliderEdge", typeof(GameObject))
+                , pos, Quaternion.identity) as GameObject;
             return obj;
         }
 
