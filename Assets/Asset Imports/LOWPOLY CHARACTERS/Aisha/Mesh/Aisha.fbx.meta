@@ -1,0 +1,2832 @@
+fileFormatVersion: 2
+guid: 216ab329157c2694aa4d9c28fe6f85d3
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Aisha_BP_Backpack.000
+  - first:
+      1: 100004
+    second: Aisha_BP_Backpack.001
+  - first:
+      1: 100006
+    second: Aisha_BP_Backpack.002
+  - first:
+      1: 100008
+    second: Aisha_BP_Backpack.003
+  - first:
+      1: 100010
+    second: Aisha_BP_Backpack.004
+  - first:
+      1: 100012
+    second: Aisha_Foot_All-star
+  - first:
+      1: 100014
+    second: Aisha_Foot_Ballet Shoes.000
+  - first:
+      1: 100016
+    second: Aisha_Foot_Ballet Shoes.001
+  - first:
+      1: 100018
+    second: Aisha_Foot_Ballet Shoes.002
+  - first:
+      1: 100020
+    second: Aisha_Foot_Base
+  - first:
+      1: 100022
+    second: Aisha_Foot_Boots.000
+  - first:
+      1: 100024
+    second: Aisha_Foot_Boots.001
+  - first:
+      1: 100026
+    second: Aisha_Foot_High Heels
+  - first:
+      1: 100028
+    second: Aisha_Foot_Shoes
+  - first:
+      1: 100030
+    second: Aisha_Hair_CommonHair.000
+  - first:
+      1: 100032
+    second: Aisha_Hair_CommonHair.001
+  - first:
+      1: 100034
+    second: Aisha_Hair_CommonHair.002
+  - first:
+      1: 100036
+    second: Aisha_Hair_CommonHair.003
+  - first:
+      1: 100038
+    second: Aisha_Hair_CommonHair.004
+  - first:
+      1: 100040
+    second: Aisha_Hair_CommonHair.005
+  - first:
+      1: 100042
+    second: Aisha_Hair_CommonHair.006
+  - first:
+      1: 100044
+    second: Aisha_Hair_StarterHair
+  - first:
+      1: 100046
+    second: Aisha_Hand_Base
+  - first:
+      1: 100048
+    second: Aisha_Hand_bracelets
+  - first:
+      1: 100050
+    second: Aisha_Hand_Glove.000
+  - first:
+      1: 100052
+    second: Aisha_Hand_Glove.001
+  - first:
+      1: 100054
+    second: Aisha_Hand_Glove.002
+  - first:
+      1: 100056
+    second: Aisha_Hand_Glove.003
+  - first:
+      1: 100058
+    second: Aisha_Hand_LongSleeve Glove
+  - first:
+      1: 100060
+    second: Aisha_Hand_Painted Nails
+  - first:
+      1: 100062
+    second: Aisha_Head_Base
+  - first:
+      1: 100064
+    second: Aisha_LB_Base
+  - first:
+      1: 100066
+    second: Aisha_LB_Pants.000
+  - first:
+      1: 100068
+    second: Aisha_LB_Pants.001
+  - first:
+      1: 100070
+    second: Aisha_LB_Pants.002
+  - first:
+      1: 100072
+    second: Aisha_LB_Shorts
+  - first:
+      1: 100074
+    second: Aisha_LB_Shorts.001
+  - first:
+      1: 100076
+    second: Aisha_LB_Shorts.002
+  - first:
+      1: 100078
+    second: Aisha_LB_Skirt
+  - first:
+      1: 100080
+    second: Aisha_LB_T-Shirt
+  - first:
+      1: 100082
+    second: Aisha_UB_Base
+  - first:
+      1: 100084
+    second: Aisha_UB_Cut Sweatshirt
+  - first:
+      1: 100086
+    second: Aisha_UB_LB_Dress
+  - first:
+      1: 100088
+    second: Aisha_UB_LB_Overall And T-shirt
+  - first:
+      1: 100090
+    second: Aisha_UB_Long-Sleeve
+  - first:
+      1: 100092
+    second: Aisha_UB_School Uniform_Shirt
+  - first:
+      1: 100094
+    second: Aisha_UB_School Uniform_Skirt
+  - first:
+      1: 100096
+    second: Aisha_UB_Shirt
+  - first:
+      1: 100098
+    second: Aisha_UB_Skull Sweatshirt
+  - first:
+      1: 100100
+    second: Aisha_UB_Small Tank-Top
+  - first:
+      1: 100102
+    second: Aisha_UB_Tank-Top
+  - first:
+      1: 100104
+    second: Aisha_UH_Cap
+  - first:
+      1: 100106
+    second: Aisha_UH_Earphone
+  - first:
+      1: 100108
+    second: Aisha_UH_Motorcycle Helmet
+  - first:
+      1: 100110
+    second: Aisha_Vest_Vest.000
+  - first:
+      1: 100112
+    second: Back Parts
+  - first:
+      1: 100114
+    second: ball_l
+  - first:
+      1: 100116
+    second: ball_r
+  - first:
+      1: 100118
+    second: calf_l
+  - first:
+      1: 100120
+    second: calf_r
+  - first:
+      1: 100122
+    second: Clavicle_l
+  - first:
+      1: 100124
+    second: Clavicle_r
+  - first:
+      1: 100126
+    second: Foot Parts
+  - first:
+      1: 100128
+    second: foot_l
+  - first:
+      1: 100130
+    second: foot_r
+  - first:
+      1: 100132
+    second: Hairs
+  - first:
+      1: 100134
+    second: Hand parts
+  - first:
+      1: 100136
+    second: hand_l
+  - first:
+      1: 100138
+    second: hand_r
+  - first:
+      1: 100140
+    second: head
+  - first:
+      1: 100142
+    second: Head Parts
+  - first:
+      1: 100144
+    second: index_01_l
+  - first:
+      1: 100146
+    second: index_01_r
+  - first:
+      1: 100148
+    second: index_02_l
+  - first:
+      1: 100150
+    second: index_02_r
+  - first:
+      1: 100152
+    second: index_03_l
+  - first:
+      1: 100154
+    second: index_03_r
+  - first:
+      1: 100156
+    second: Lilian_RIG
+  - first:
+      1: 100158
+    second: lowerarm_l
+  - first:
+      1: 100160
+    second: lowerarm_r
+  - first:
+      1: 100162
+    second: LowerBody parts
+  - first:
+      1: 100164
+    second: middle_01_l
+  - first:
+      1: 100166
+    second: middle_01_r
+  - first:
+      1: 100168
+    second: middle_02_l
+  - first:
+      1: 100170
+    second: middle_02_r
+  - first:
+      1: 100172
+    second: middle_03_l
+  - first:
+      1: 100174
+    second: middle_03_r
+  - first:
+      1: 100176
+    second: neck_01
+  - first:
+      1: 100178
+    second: Pelvis
+  - first:
+      1: 100180
+    second: pinky_01_l
+  - first:
+      1: 100182
+    second: pinky_01_r
+  - first:
+      1: 100184
+    second: pinky_02_l
+  - first:
+      1: 100186
+    second: pinky_02_r
+  - first:
+      1: 100188
+    second: pinky_03_l
+  - first:
+      1: 100190
+    second: pinky_03_r
+  - first:
+      1: 100192
+    second: ring_01_l
+  - first:
+      1: 100194
+    second: ring_01_r
+  - first:
+      1: 100196
+    second: ring_02_l
+  - first:
+      1: 100198
+    second: ring_02_r
+  - first:
+      1: 100200
+    second: ring_03_l
+  - first:
+      1: 100202
+    second: ring_03_r
+  - first:
+      1: 100204
+    second: spine_01
+  - first:
+      1: 100206
+    second: Spine_03
+  - first:
+      1: 100208
+    second: thigh_l
+  - first:
+      1: 100210
+    second: thigh_r
+  - first:
+      1: 100212
+    second: thumb_01_l
+  - first:
+      1: 100214
+    second: thumb_01_r
+  - first:
+      1: 100216
+    second: thumb_02_l
+  - first:
+      1: 100218
+    second: thumb_02_r
+  - first:
+      1: 100220
+    second: thumb_03_l
+  - first:
+      1: 100222
+    second: thumb_03_r
+  - first:
+      1: 100224
+    second: Upper Head Parts
+  - first:
+      1: 100226
+    second: Upperarm_l
+  - first:
+      1: 100228
+    second: Upperarm_r
+  - first:
+      1: 100230
+    second: UpperBody parts
+  - first:
+      1: 100232
+    second: Vest parts
+  - first:
+      1: 100234
+    second: Rig
+  - first:
+      1: 100236
+    second: Aisha_LB_School Uniform_Skirt
+  - first:
+      1: 100238
+    second: Aisha_UB_T-Shirt
+  - first:
+      1: 100240
+    second: Aisha_Eyes_Grass
+  - first:
+      1: 100242
+    second: Aisha_Feet_All-star
+  - first:
+      1: 100244
+    second: Aisha_Feet_Ballet Shoes.001
+  - first:
+      1: 100246
+    second: Aisha_Feet_Ballet Shoes.002
+  - first:
+      1: 100248
+    second: Aisha_Feet_Base
+  - first:
+      1: 100250
+    second: Aisha_Feet_Boot.001
+  - first:
+      1: 100252
+    second: Aisha_Feet_Boots.000
+  - first:
+      1: 100254
+    second: Aisha_Feet_Boots.001
+  - first:
+      1: 100256
+    second: Aisha_Feet_High Heels
+  - first:
+      1: 100258
+    second: Aisha_Feet_Shoes
+  - first:
+      1: 100260
+    second: Aisha_Hand_Base.001
+  - first:
+      1: 100262
+    second: Aisha_Head_Cap
+  - first:
+      1: 100264
+    second: Aisha_Head_Earphone
+  - first:
+      1: 100266
+    second: Aisha_Head_Farm Hat
+  - first:
+      1: 100268
+    second: Aisha_Head_Motorcycle Helmet
+  - first:
+      1: 100270
+    second: Aisha_Legs_Base
+  - first:
+      1: 100272
+    second: Aisha_Legs_Pants.000
+  - first:
+      1: 100274
+    second: Aisha_Legs_Pants.001
+  - first:
+      1: 100276
+    second: Aisha_Legs_Pants.002
+  - first:
+      1: 100278
+    second: Aisha_Legs_School Uniform_Skirt
+  - first:
+      1: 100280
+    second: Aisha_Legs_Shorts
+  - first:
+      1: 100282
+    second: Aisha_Legs_Shorts.001
+  - first:
+      1: 100284
+    second: Aisha_Legs_Shorts.002
+  - first:
+      1: 100286
+    second: Aisha_Legs_Skirt
+  - first:
+      1: 100288
+    second: Aisha_Mask_Badana
+  - first:
+      1: 100290
+    second: Aisha_Mask_Medic Mask
+  - first:
+      1: 100292
+    second: Aisha_Outer_MilitaryVest
+  - first:
+      1: 100294
+    second: Aisha_Outer_Skull Sweatshirt_Large
+  - first:
+      1: 100296
+    second: Aisha_Torso_Base
+  - first:
+      1: 100298
+    second: Aisha_Torso_Cut Sweatshirt
+  - first:
+      1: 100300
+    second: Aisha_Torso_LB_Dress
+  - first:
+      1: 100302
+    second: Aisha_Torso_LB_Overall And T-shirt
+  - first:
+      1: 100304
+    second: Aisha_Torso_Long-Sleeve
+  - first:
+      1: 100306
+    second: Aisha_Torso_School Uniform_Shirt
+  - first:
+      1: 100308
+    second: Aisha_Torso_Shirt
+  - first:
+      1: 100310
+    second: Aisha_Torso_Skull Sweatshirt
+  - first:
+      1: 100312
+    second: Aisha_Torso_Small Tank-Top
+  - first:
+      1: 100314
+    second: Aisha_Torso_T-Shirt
+  - first:
+      1: 100316
+    second: Aisha_Torso_Tank-Top
+  - first:
+      1: 100318
+    second: BackPacks
+  - first:
+      1: 100320
+    second: Feet
+  - first:
+      1: 100322
+    second: Hair
+  - first:
+      1: 100324
+    second: Hands
+  - first:
+      1: 100326
+    second: Head
+  - first:
+      1: 100328
+    second: Legs
+  - first:
+      1: 100330
+    second: Outer
+  - first:
+      1: 100332
+    second: Torso
+  - first:
+      1: 100334
+    second: Aisha_Torso_Dress
+  - first:
+      1: 100336
+    second: Aisha_Torso_Overall And T-shirt
+  - first:
+      1: 100338
+    second: Aisha_Hand_Bandage
+  - first:
+      1: 100340
+    second: Aisha_Feet_Ballet Shoes.000
+  - first:
+      1: 100342
+    second: Aisha_Feet_Boots.002
+  - first:
+      1: 100344
+    second: Aisha_Eyes_Glasses
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Aisha_BP_Backpack.000
+  - first:
+      4: 400004
+    second: Aisha_BP_Backpack.001
+  - first:
+      4: 400006
+    second: Aisha_BP_Backpack.002
+  - first:
+      4: 400008
+    second: Aisha_BP_Backpack.003
+  - first:
+      4: 400010
+    second: Aisha_BP_Backpack.004
+  - first:
+      4: 400012
+    second: Aisha_Foot_All-star
+  - first:
+      4: 400014
+    second: Aisha_Foot_Ballet Shoes.000
+  - first:
+      4: 400016
+    second: Aisha_Foot_Ballet Shoes.001
+  - first:
+      4: 400018
+    second: Aisha_Foot_Ballet Shoes.002
+  - first:
+      4: 400020
+    second: Aisha_Foot_Base
+  - first:
+      4: 400022
+    second: Aisha_Foot_Boots.000
+  - first:
+      4: 400024
+    second: Aisha_Foot_Boots.001
+  - first:
+      4: 400026
+    second: Aisha_Foot_High Heels
+  - first:
+      4: 400028
+    second: Aisha_Foot_Shoes
+  - first:
+      4: 400030
+    second: Aisha_Hair_CommonHair.000
+  - first:
+      4: 400032
+    second: Aisha_Hair_CommonHair.001
+  - first:
+      4: 400034
+    second: Aisha_Hair_CommonHair.002
+  - first:
+      4: 400036
+    second: Aisha_Hair_CommonHair.003
+  - first:
+      4: 400038
+    second: Aisha_Hair_CommonHair.004
+  - first:
+      4: 400040
+    second: Aisha_Hair_CommonHair.005
+  - first:
+      4: 400042
+    second: Aisha_Hair_CommonHair.006
+  - first:
+      4: 400044
+    second: Aisha_Hair_StarterHair
+  - first:
+      4: 400046
+    second: Aisha_Hand_Base
+  - first:
+      4: 400048
+    second: Aisha_Hand_bracelets
+  - first:
+      4: 400050
+    second: Aisha_Hand_Glove.000
+  - first:
+      4: 400052
+    second: Aisha_Hand_Glove.001
+  - first:
+      4: 400054
+    second: Aisha_Hand_Glove.002
+  - first:
+      4: 400056
+    second: Aisha_Hand_Glove.003
+  - first:
+      4: 400058
+    second: Aisha_Hand_LongSleeve Glove
+  - first:
+      4: 400060
+    second: Aisha_Hand_Painted Nails
+  - first:
+      4: 400062
+    second: Aisha_Head_Base
+  - first:
+      4: 400064
+    second: Aisha_LB_Base
+  - first:
+      4: 400066
+    second: Aisha_LB_Pants.000
+  - first:
+      4: 400068
+    second: Aisha_LB_Pants.001
+  - first:
+      4: 400070
+    second: Aisha_LB_Pants.002
+  - first:
+      4: 400072
+    second: Aisha_LB_Shorts
+  - first:
+      4: 400074
+    second: Aisha_LB_Shorts.001
+  - first:
+      4: 400076
+    second: Aisha_LB_Shorts.002
+  - first:
+      4: 400078
+    second: Aisha_LB_Skirt
+  - first:
+      4: 400080
+    second: Aisha_LB_T-Shirt
+  - first:
+      4: 400082
+    second: Aisha_UB_Base
+  - first:
+      4: 400084
+    second: Aisha_UB_Cut Sweatshirt
+  - first:
+      4: 400086
+    second: Aisha_UB_LB_Dress
+  - first:
+      4: 400088
+    second: Aisha_UB_LB_Overall And T-shirt
+  - first:
+      4: 400090
+    second: Aisha_UB_Long-Sleeve
+  - first:
+      4: 400092
+    second: Aisha_UB_School Uniform_Shirt
+  - first:
+      4: 400094
+    second: Aisha_UB_School Uniform_Skirt
+  - first:
+      4: 400096
+    second: Aisha_UB_Shirt
+  - first:
+      4: 400098
+    second: Aisha_UB_Skull Sweatshirt
+  - first:
+      4: 400100
+    second: Aisha_UB_Small Tank-Top
+  - first:
+      4: 400102
+    second: Aisha_UB_Tank-Top
+  - first:
+      4: 400104
+    second: Aisha_UH_Cap
+  - first:
+      4: 400106
+    second: Aisha_UH_Earphone
+  - first:
+      4: 400108
+    second: Aisha_UH_Motorcycle Helmet
+  - first:
+      4: 400110
+    second: Aisha_Vest_Vest.000
+  - first:
+      4: 400112
+    second: Back Parts
+  - first:
+      4: 400114
+    second: ball_l
+  - first:
+      4: 400116
+    second: ball_r
+  - first:
+      4: 400118
+    second: calf_l
+  - first:
+      4: 400120
+    second: calf_r
+  - first:
+      4: 400122
+    second: Clavicle_l
+  - first:
+      4: 400124
+    second: Clavicle_r
+  - first:
+      4: 400126
+    second: Foot Parts
+  - first:
+      4: 400128
+    second: foot_l
+  - first:
+      4: 400130
+    second: foot_r
+  - first:
+      4: 400132
+    second: Hairs
+  - first:
+      4: 400134
+    second: Hand parts
+  - first:
+      4: 400136
+    second: hand_l
+  - first:
+      4: 400138
+    second: hand_r
+  - first:
+      4: 400140
+    second: head
+  - first:
+      4: 400142
+    second: Head Parts
+  - first:
+      4: 400144
+    second: index_01_l
+  - first:
+      4: 400146
+    second: index_01_r
+  - first:
+      4: 400148
+    second: index_02_l
+  - first:
+      4: 400150
+    second: index_02_r
+  - first:
+      4: 400152
+    second: index_03_l
+  - first:
+      4: 400154
+    second: index_03_r
+  - first:
+      4: 400156
+    second: Lilian_RIG
+  - first:
+      4: 400158
+    second: lowerarm_l
+  - first:
+      4: 400160
+    second: lowerarm_r
+  - first:
+      4: 400162
+    second: LowerBody parts
+  - first:
+      4: 400164
+    second: middle_01_l
+  - first:
+      4: 400166
+    second: middle_01_r
+  - first:
+      4: 400168
+    second: middle_02_l
+  - first:
+      4: 400170
+    second: middle_02_r
+  - first:
+      4: 400172
+    second: middle_03_l
+  - first:
+      4: 400174
+    second: middle_03_r
+  - first:
+      4: 400176
+    second: neck_01
+  - first:
+      4: 400178
+    second: Pelvis
+  - first:
+      4: 400180
+    second: pinky_01_l
+  - first:
+      4: 400182
+    second: pinky_01_r
+  - first:
+      4: 400184
+    second: pinky_02_l
+  - first:
+      4: 400186
+    second: pinky_02_r
+  - first:
+      4: 400188
+    second: pinky_03_l
+  - first:
+      4: 400190
+    second: pinky_03_r
+  - first:
+      4: 400192
+    second: ring_01_l
+  - first:
+      4: 400194
+    second: ring_01_r
+  - first:
+      4: 400196
+    second: ring_02_l
+  - first:
+      4: 400198
+    second: ring_02_r
+  - first:
+      4: 400200
+    second: ring_03_l
+  - first:
+      4: 400202
+    second: ring_03_r
+  - first:
+      4: 400204
+    second: spine_01
+  - first:
+      4: 400206
+    second: Spine_03
+  - first:
+      4: 400208
+    second: thigh_l
+  - first:
+      4: 400210
+    second: thigh_r
+  - first:
+      4: 400212
+    second: thumb_01_l
+  - first:
+      4: 400214
+    second: thumb_01_r
+  - first:
+      4: 400216
+    second: thumb_02_l
+  - first:
+      4: 400218
+    second: thumb_02_r
+  - first:
+      4: 400220
+    second: thumb_03_l
+  - first:
+      4: 400222
+    second: thumb_03_r
+  - first:
+      4: 400224
+    second: Upper Head Parts
+  - first:
+      4: 400226
+    second: Upperarm_l
+  - first:
+      4: 400228
+    second: Upperarm_r
+  - first:
+      4: 400230
+    second: UpperBody parts
+  - first:
+      4: 400232
+    second: Vest parts
+  - first:
+      4: 400234
+    second: Rig
+  - first:
+      4: 400236
+    second: Aisha_LB_School Uniform_Skirt
+  - first:
+      4: 400238
+    second: Aisha_UB_T-Shirt
+  - first:
+      4: 400240
+    second: Aisha_Eyes_Grass
+  - first:
+      4: 400242
+    second: Aisha_Feet_All-star
+  - first:
+      4: 400244
+    second: Aisha_Feet_Ballet Shoes.001
+  - first:
+      4: 400246
+    second: Aisha_Feet_Ballet Shoes.002
+  - first:
+      4: 400248
+    second: Aisha_Feet_Base
+  - first:
+      4: 400250
+    second: Aisha_Feet_Boot.001
+  - first:
+      4: 400252
+    second: Aisha_Feet_Boots.000
+  - first:
+      4: 400254
+    second: Aisha_Feet_Boots.001
+  - first:
+      4: 400256
+    second: Aisha_Feet_High Heels
+  - first:
+      4: 400258
+    second: Aisha_Feet_Shoes
+  - first:
+      4: 400260
+    second: Aisha_Hand_Base.001
+  - first:
+      4: 400262
+    second: Aisha_Head_Cap
+  - first:
+      4: 400264
+    second: Aisha_Head_Earphone
+  - first:
+      4: 400266
+    second: Aisha_Head_Farm Hat
+  - first:
+      4: 400268
+    second: Aisha_Head_Motorcycle Helmet
+  - first:
+      4: 400270
+    second: Aisha_Legs_Base
+  - first:
+      4: 400272
+    second: Aisha_Legs_Pants.000
+  - first:
+      4: 400274
+    second: Aisha_Legs_Pants.001
+  - first:
+      4: 400276
+    second: Aisha_Legs_Pants.002
+  - first:
+      4: 400278
+    second: Aisha_Legs_School Uniform_Skirt
+  - first:
+      4: 400280
+    second: Aisha_Legs_Shorts
+  - first:
+      4: 400282
+    second: Aisha_Legs_Shorts.001
+  - first:
+      4: 400284
+    second: Aisha_Legs_Shorts.002
+  - first:
+      4: 400286
+    second: Aisha_Legs_Skirt
+  - first:
+      4: 400288
+    second: Aisha_Mask_Badana
+  - first:
+      4: 400290
+    second: Aisha_Mask_Medic Mask
+  - first:
+      4: 400292
+    second: Aisha_Outer_MilitaryVest
+  - first:
+      4: 400294
+    second: Aisha_Outer_Skull Sweatshirt_Large
+  - first:
+      4: 400296
+    second: Aisha_Torso_Base
+  - first:
+      4: 400298
+    second: Aisha_Torso_Cut Sweatshirt
+  - first:
+      4: 400300
+    second: Aisha_Torso_LB_Dress
+  - first:
+      4: 400302
+    second: Aisha_Torso_LB_Overall And T-shirt
+  - first:
+      4: 400304
+    second: Aisha_Torso_Long-Sleeve
+  - first:
+      4: 400306
+    second: Aisha_Torso_School Uniform_Shirt
+  - first:
+      4: 400308
+    second: Aisha_Torso_Shirt
+  - first:
+      4: 400310
+    second: Aisha_Torso_Skull Sweatshirt
+  - first:
+      4: 400312
+    second: Aisha_Torso_Small Tank-Top
+  - first:
+      4: 400314
+    second: Aisha_Torso_T-Shirt
+  - first:
+      4: 400316
+    second: Aisha_Torso_Tank-Top
+  - first:
+      4: 400318
+    second: BackPacks
+  - first:
+      4: 400320
+    second: Feet
+  - first:
+      4: 400322
+    second: Hair
+  - first:
+      4: 400324
+    second: Hands
+  - first:
+      4: 400326
+    second: Head
+  - first:
+      4: 400328
+    second: Legs
+  - first:
+      4: 400330
+    second: Outer
+  - first:
+      4: 400332
+    second: Torso
+  - first:
+      4: 400334
+    second: Aisha_Torso_Dress
+  - first:
+      4: 400336
+    second: Aisha_Torso_Overall And T-shirt
+  - first:
+      4: 400338
+    second: Aisha_Hand_Bandage
+  - first:
+      4: 400340
+    second: Aisha_Feet_Ballet Shoes.000
+  - first:
+      4: 400342
+    second: Aisha_Feet_Boots.002
+  - first:
+      4: 400344
+    second: Aisha_Eyes_Glasses
+  - first:
+      21: 2100000
+    second: Aisha_MainPalette
+  - first:
+      21: 2100002
+    second: Aisha_UB_Skull Sweatshirt
+  - first:
+      21: 2100004
+    second: Aisha_Palette_2
+  - first:
+      21: 2100006
+    second: Aisha_PsicoMusic Shirt
+  - first:
+      21: 2100008
+    second: Aisha_UB_CutSweatshirt
+  - first:
+      21: 2100010
+    second: Aisha_Torso_Skull Sweatshirt
+  - first:
+      21: 2100012
+    second: Aisha_Torso_CutSweatshirt
+  - first:
+      23: 2300000
+    second: Aisha_UH_Motorcycle Helmet
+  - first:
+      23: 2300002
+    second: Aisha_Head_Farm Hat
+  - first:
+      33: 3300000
+    second: Aisha_UH_Motorcycle Helmet
+  - first:
+      33: 3300002
+    second: Aisha_Head_Farm Hat
+  - first:
+      43: 4300000
+    second: Aisha_Vest_Vest.000
+  - first:
+      43: 4300002
+    second: Aisha_Head_Base
+  - first:
+      43: 4300004
+    second: Aisha_UH_Motorcycle Helmet
+  - first:
+      43: 4300006
+    second: Aisha_UH_Cap
+  - first:
+      43: 4300008
+    second: Aisha_UH_Earphone
+  - first:
+      43: 4300010
+    second: Aisha_Hair_CommonHair.001
+  - first:
+      43: 4300012
+    second: Aisha_Hair_CommonHair.005
+  - first:
+      43: 4300014
+    second: Aisha_Hair_CommonHair.006
+  - first:
+      43: 4300016
+    second: Aisha_Hair_CommonHair.000
+  - first:
+      43: 4300018
+    second: Aisha_Hair_CommonHair.004
+  - first:
+      43: 4300020
+    second: Aisha_Hair_CommonHair.003
+  - first:
+      43: 4300022
+    second: Aisha_Hair_CommonHair.002
+  - first:
+      43: 4300024
+    second: Aisha_Hair_StarterHair
+  - first:
+      43: 4300026
+    second: Aisha_BP_Backpack.000
+  - first:
+      43: 4300028
+    second: Aisha_BP_Backpack.001
+  - first:
+      43: 4300030
+    second: Aisha_BP_Backpack.002
+  - first:
+      43: 4300032
+    second: Aisha_BP_Backpack.004
+  - first:
+      43: 4300034
+    second: Aisha_BP_Backpack.003
+  - first:
+      43: 4300036
+    second: Aisha_Foot_Boots.000
+  - first:
+      43: 4300038
+    second: Aisha_Foot_High Heels
+  - first:
+      43: 4300040
+    second: Aisha_Foot_Ballet Shoes.002
+  - first:
+      43: 4300042
+    second: Aisha_Foot_Ballet Shoes.000
+  - first:
+      43: 4300044
+    second: Aisha_Foot_Shoes
+  - first:
+      43: 4300046
+    second: Aisha_Foot_Ballet Shoes.001
+  - first:
+      43: 4300048
+    second: Aisha_Foot_All-star
+  - first:
+      43: 4300050
+    second: Aisha_Foot_Base
+  - first:
+      43: 4300052
+    second: Aisha_Foot_Boots.001
+  - first:
+      43: 4300054
+    second: Aisha_Hand_LongSleeve Glove
+  - first:
+      43: 4300056
+    second: Aisha_Hand_Glove.003
+  - first:
+      43: 4300058
+    second: Aisha_Hand_Glove.000
+  - first:
+      43: 4300060
+    second: Aisha_Hand_Painted Nails
+  - first:
+      43: 4300062
+    second: Aisha_Hand_bracelets
+  - first:
+      43: 4300064
+    second: Aisha_Hand_Glove.002
+  - first:
+      43: 4300066
+    second: Aisha_Hand_Glove.001
+  - first:
+      43: 4300068
+    second: Aisha_Hand_Base
+  - first:
+      43: 4300070
+    second: Aisha_LB_Pants.000
+  - first:
+      43: 4300072
+    second: Aisha_LB_Shorts.001
+  - first:
+      43: 4300074
+    second: Aisha_LB_Pants.001
+  - first:
+      43: 4300076
+    second: Aisha_LB_T-Shirt
+  - first:
+      43: 4300078
+    second: Aisha_LB_Shorts.002
+  - first:
+      43: 4300080
+    second: Aisha_LB_Pants.002
+  - first:
+      43: 4300082
+    second: Aisha_LB_Skirt
+  - first:
+      43: 4300084
+    second: Aisha_LB_Shorts
+  - first:
+      43: 4300086
+    second: Aisha_LB_Base
+  - first:
+      43: 4300088
+    second: Aisha_UB_Shirt
+  - first:
+      43: 4300090
+    second: Aisha_UB_Small Tank-Top
+  - first:
+      43: 4300092
+    second: Aisha_UB_LB_Dress
+  - first:
+      43: 4300094
+    second: Aisha_UB_School Uniform_Skirt
+  - first:
+      43: 4300096
+    second: Aisha_UB_School Uniform_Shirt
+  - first:
+      43: 4300098
+    second: Aisha_UB_Tank-Top
+  - first:
+      43: 4300100
+    second: Aisha_UB_Skull Sweatshirt
+  - first:
+      43: 4300102
+    second: Aisha_UB_Cut Sweatshirt
+  - first:
+      43: 4300104
+    second: Aisha_UB_LB_Overall And T-shirt
+  - first:
+      43: 4300106
+    second: Aisha_UB_Long-Sleeve
+  - first:
+      43: 4300108
+    second: Aisha_UB_Base
+  - first:
+      43: 4300110
+    second: Aisha_LB_School Uniform_Skirt
+  - first:
+      43: 4300112
+    second: Aisha_UB_T-Shirt
+  - first:
+      43: 4300114
+    second: Aisha_Outer_MilitaryVest
+  - first:
+      43: 4300116
+    second: Aisha_Outer_Skull Sweatshirt_Large
+  - first:
+      43: 4300118
+    second: Aisha_Head_Farm Hat
+  - first:
+      43: 4300120
+    second: Aisha_Mask_Medic Mask
+  - first:
+      43: 4300122
+    second: Aisha_Mask_Badana
+  - first:
+      43: 4300124
+    second: Aisha_Eyes_Grass
+  - first:
+      43: 4300126
+    second: Aisha_Head_Motorcycle Helmet
+  - first:
+      43: 4300128
+    second: Aisha_Head_Cap
+  - first:
+      43: 4300130
+    second: Aisha_Head_Earphone
+  - first:
+      43: 4300132
+    second: Aisha_Feet_Boot.001
+  - first:
+      43: 4300134
+    second: Aisha_Feet_Boots.000
+  - first:
+      43: 4300136
+    second: Aisha_Feet_High Heels
+  - first:
+      43: 4300138
+    second: Aisha_Feet_Ballet Shoes.002
+  - first:
+      43: 4300140
+    second: Aisha_Feet_Shoes
+  - first:
+      43: 4300142
+    second: Aisha_Feet_Ballet Shoes.001
+  - first:
+      43: 4300144
+    second: Aisha_Feet_All-star
+  - first:
+      43: 4300146
+    second: Aisha_Feet_Base
+  - first:
+      43: 4300148
+    second: Aisha_Feet_Boots.001
+  - first:
+      43: 4300150
+    second: Aisha_Hand_Base.001
+  - first:
+      43: 4300152
+    second: Aisha_Legs_Pants.000
+  - first:
+      43: 4300154
+    second: Aisha_Legs_Shorts.001
+  - first:
+      43: 4300156
+    second: Aisha_Legs_School Uniform_Skirt
+  - first:
+      43: 4300158
+    second: Aisha_Legs_Pants.001
+  - first:
+      43: 4300160
+    second: Aisha_Legs_Shorts.002
+  - first:
+      43: 4300162
+    second: Aisha_Legs_Pants.002
+  - first:
+      43: 4300164
+    second: Aisha_Legs_Skirt
+  - first:
+      43: 4300166
+    second: Aisha_Legs_Shorts
+  - first:
+      43: 4300168
+    second: Aisha_Legs_Base
+  - first:
+      43: 4300170
+    second: Aisha_Torso_Shirt
+  - first:
+      43: 4300172
+    second: Aisha_Torso_Small Tank-Top
+  - first:
+      43: 4300174
+    second: Aisha_Torso_LB_Dress
+  - first:
+      43: 4300176
+    second: Aisha_Torso_School Uniform_Shirt
+  - first:
+      43: 4300178
+    second: Aisha_Torso_Tank-Top
+  - first:
+      43: 4300180
+    second: Aisha_Torso_T-Shirt
+  - first:
+      43: 4300182
+    second: Aisha_Torso_Skull Sweatshirt
+  - first:
+      43: 4300184
+    second: Aisha_Torso_Cut Sweatshirt
+  - first:
+      43: 4300186
+    second: Aisha_Torso_LB_Overall And T-shirt
+  - first:
+      43: 4300188
+    second: Aisha_Torso_Long-Sleeve
+  - first:
+      43: 4300190
+    second: Aisha_Torso_Base
+  - first:
+      43: 4300192
+    second: Aisha_Torso_Dress
+  - first:
+      43: 4300194
+    second: Aisha_Torso_Overall And T-shirt
+  - first:
+      43: 4300196
+    second: Aisha_Hand_Bandage
+  - first:
+      43: 4300198
+    second: Aisha_Feet_Ballet Shoes.000
+  - first:
+      43: 4300200
+    second: Aisha_Feet_Boots.002
+  - first:
+      43: 4300202
+    second: Aisha_Eyes_Glasses
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Aisha_BP_Backpack.000
+  - first:
+      137: 13700002
+    second: Aisha_BP_Backpack.001
+  - first:
+      137: 13700004
+    second: Aisha_BP_Backpack.002
+  - first:
+      137: 13700006
+    second: Aisha_BP_Backpack.003
+  - first:
+      137: 13700008
+    second: Aisha_BP_Backpack.004
+  - first:
+      137: 13700010
+    second: Aisha_Foot_All-star
+  - first:
+      137: 13700012
+    second: Aisha_Foot_Ballet Shoes.000
+  - first:
+      137: 13700014
+    second: Aisha_Foot_Ballet Shoes.001
+  - first:
+      137: 13700016
+    second: Aisha_Foot_Ballet Shoes.002
+  - first:
+      137: 13700018
+    second: Aisha_Foot_Base
+  - first:
+      137: 13700020
+    second: Aisha_Foot_Boots.000
+  - first:
+      137: 13700022
+    second: Aisha_Foot_Boots.001
+  - first:
+      137: 13700024
+    second: Aisha_Foot_High Heels
+  - first:
+      137: 13700026
+    second: Aisha_Foot_Shoes
+  - first:
+      137: 13700028
+    second: Aisha_Hair_CommonHair.000
+  - first:
+      137: 13700030
+    second: Aisha_Hair_CommonHair.001
+  - first:
+      137: 13700032
+    second: Aisha_Hair_CommonHair.002
+  - first:
+      137: 13700034
+    second: Aisha_Hair_CommonHair.003
+  - first:
+      137: 13700036
+    second: Aisha_Hair_CommonHair.004
+  - first:
+      137: 13700038
+    second: Aisha_Hair_CommonHair.005
+  - first:
+      137: 13700040
+    second: Aisha_Hair_CommonHair.006
+  - first:
+      137: 13700042
+    second: Aisha_Hair_StarterHair
+  - first:
+      137: 13700044
+    second: Aisha_Hand_Base
+  - first:
+      137: 13700046
+    second: Aisha_Hand_bracelets
+  - first:
+      137: 13700048
+    second: Aisha_Hand_Glove.000
+  - first:
+      137: 13700050
+    second: Aisha_Hand_Glove.001
+  - first:
+      137: 13700052
+    second: Aisha_Hand_Glove.002
+  - first:
+      137: 13700054
+    second: Aisha_Hand_Glove.003
+  - first:
+      137: 13700056
+    second: Aisha_Hand_LongSleeve Glove
+  - first:
+      137: 13700058
+    second: Aisha_Hand_Painted Nails
+  - first:
+      137: 13700060
+    second: Aisha_Head_Base
+  - first:
+      137: 13700062
+    second: Aisha_LB_Base
+  - first:
+      137: 13700064
+    second: Aisha_LB_Pants.000
+  - first:
+      137: 13700066
+    second: Aisha_LB_Pants.001
+  - first:
+      137: 13700068
+    second: Aisha_LB_Pants.002
+  - first:
+      137: 13700070
+    second: Aisha_LB_Shorts
+  - first:
+      137: 13700072
+    second: Aisha_LB_Shorts.001
+  - first:
+      137: 13700074
+    second: Aisha_LB_Shorts.002
+  - first:
+      137: 13700076
+    second: Aisha_LB_Skirt
+  - first:
+      137: 13700078
+    second: Aisha_LB_T-Shirt
+  - first:
+      137: 13700080
+    second: Aisha_UB_Base
+  - first:
+      137: 13700082
+    second: Aisha_UB_Cut Sweatshirt
+  - first:
+      137: 13700084
+    second: Aisha_UB_LB_Dress
+  - first:
+      137: 13700086
+    second: Aisha_UB_LB_Overall And T-shirt
+  - first:
+      137: 13700088
+    second: Aisha_UB_Long-Sleeve
+  - first:
+      137: 13700090
+    second: Aisha_UB_School Uniform_Shirt
+  - first:
+      137: 13700092
+    second: Aisha_UB_School Uniform_Skirt
+  - first:
+      137: 13700094
+    second: Aisha_UB_Shirt
+  - first:
+      137: 13700096
+    second: Aisha_UB_Skull Sweatshirt
+  - first:
+      137: 13700098
+    second: Aisha_UB_Small Tank-Top
+  - first:
+      137: 13700100
+    second: Aisha_UB_Tank-Top
+  - first:
+      137: 13700102
+    second: Aisha_UH_Cap
+  - first:
+      137: 13700104
+    second: Aisha_UH_Earphone
+  - first:
+      137: 13700106
+    second: Aisha_Vest_Vest.000
+  - first:
+      137: 13700108
+    second: Aisha_UH_Motorcycle Helmet
+  - first:
+      137: 13700110
+    second: Aisha_LB_School Uniform_Skirt
+  - first:
+      137: 13700112
+    second: Aisha_UB_T-Shirt
+  - first:
+      137: 13700114
+    second: Aisha_Eyes_Grass
+  - first:
+      137: 13700116
+    second: Aisha_Feet_All-star
+  - first:
+      137: 13700118
+    second: Aisha_Feet_Ballet Shoes.001
+  - first:
+      137: 13700120
+    second: Aisha_Feet_Ballet Shoes.002
+  - first:
+      137: 13700122
+    second: Aisha_Feet_Base
+  - first:
+      137: 13700124
+    second: Aisha_Feet_Boot.001
+  - first:
+      137: 13700126
+    second: Aisha_Feet_Boots.000
+  - first:
+      137: 13700128
+    second: Aisha_Feet_Boots.001
+  - first:
+      137: 13700130
+    second: Aisha_Feet_High Heels
+  - first:
+      137: 13700132
+    second: Aisha_Feet_Shoes
+  - first:
+      137: 13700134
+    second: Aisha_Hand_Base.001
+  - first:
+      137: 13700136
+    second: Aisha_Head_Cap
+  - first:
+      137: 13700138
+    second: Aisha_Head_Earphone
+  - first:
+      137: 13700140
+    second: Aisha_Head_Motorcycle Helmet
+  - first:
+      137: 13700142
+    second: Aisha_Legs_Base
+  - first:
+      137: 13700144
+    second: Aisha_Legs_Pants.000
+  - first:
+      137: 13700146
+    second: Aisha_Legs_Pants.001
+  - first:
+      137: 13700148
+    second: Aisha_Legs_Pants.002
+  - first:
+      137: 13700150
+    second: Aisha_Legs_School Uniform_Skirt
+  - first:
+      137: 13700152
+    second: Aisha_Legs_Shorts
+  - first:
+      137: 13700154
+    second: Aisha_Legs_Shorts.001
+  - first:
+      137: 13700156
+    second: Aisha_Legs_Shorts.002
+  - first:
+      137: 13700158
+    second: Aisha_Legs_Skirt
+  - first:
+      137: 13700160
+    second: Aisha_Mask_Badana
+  - first:
+      137: 13700162
+    second: Aisha_Mask_Medic Mask
+  - first:
+      137: 13700164
+    second: Aisha_Outer_MilitaryVest
+  - first:
+      137: 13700166
+    second: Aisha_Outer_Skull Sweatshirt_Large
+  - first:
+      137: 13700168
+    second: Aisha_Torso_Base
+  - first:
+      137: 13700170
+    second: Aisha_Torso_Cut Sweatshirt
+  - first:
+      137: 13700172
+    second: Aisha_Torso_LB_Dress
+  - first:
+      137: 13700174
+    second: Aisha_Torso_LB_Overall And T-shirt
+  - first:
+      137: 13700176
+    second: Aisha_Torso_Long-Sleeve
+  - first:
+      137: 13700178
+    second: Aisha_Torso_School Uniform_Shirt
+  - first:
+      137: 13700180
+    second: Aisha_Torso_Shirt
+  - first:
+      137: 13700182
+    second: Aisha_Torso_Skull Sweatshirt
+  - first:
+      137: 13700184
+    second: Aisha_Torso_Small Tank-Top
+  - first:
+      137: 13700186
+    second: Aisha_Torso_T-Shirt
+  - first:
+      137: 13700188
+    second: Aisha_Torso_Tank-Top
+  - first:
+      137: 13700190
+    second: Aisha_Torso_Dress
+  - first:
+      137: 13700192
+    second: Aisha_Torso_Overall And T-shirt
+  - first:
+      137: 13700194
+    second: Aisha_Hand_Bandage
+  - first:
+      137: 13700196
+    second: Aisha_Feet_Ballet Shoes.000
+  - first:
+      137: 13700198
+    second: Aisha_Feet_Boots.002
+  - first:
+      137: 13700200
+    second: Aisha_Head_Farm Hat
+  - first:
+      137: 13700202
+    second: Aisha_Eyes_Glasses
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aisha_MainPalette
+    second: {fileID: 2100000, guid: cd3bf0102d721f946ba62bcc665dcc5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aisha_Palette_2
+    second: {fileID: 2100000, guid: 0238ec582bd2f594ebf77c52d509f88e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aisha_PsicoMusic Shirt
+    second: {fileID: 2100000, guid: d026a1d3f82f2e04e80341bccb3fb284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aisha_Torso_CutSweatshirt
+    second: {fileID: 2100000, guid: 2cde2fb9f5f46c940ba709d8b2f118c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aisha_Torso_Skull Sweatshirt
+    second: {fileID: 2100000, guid: 0f674973e5cbf4048a192015c3a2a72e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aisha_UB_CutSweatshirt
+    second: {fileID: 2100000, guid: 2cde2fb9f5f46c940ba709d8b2f118c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aisha_UB_Skull Sweatshirt
+    second: {fileID: 2100000, guid: 0f674973e5cbf4048a192015c3a2a72e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calf_l
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calf_r
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_l
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_r
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_03
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck_01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavicle_l
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavicle_r
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upperarm_l
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upperarm_r
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerarm_l
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerarm_r
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_l
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_r
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ball_l
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ball_r
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_01_l
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_02_l
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_03_l
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_01_l
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_02_l
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_03_l
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_01_l
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_02_l
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_03_l
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_01_l
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_02_l
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_03_l
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_01_l
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_02_l
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_03_l
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_01_r
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_02_r
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_03_r
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_01_r
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_02_r
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: index_03_r
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_01_r
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_02_r
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: middle_03_r
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_01_r
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_02_r
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_03_r
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_01_r
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_02_r
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_03_r
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Aisha(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BackPacks
+      parentName: Aisha(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_BP_Backpack.000
+      parentName: BackPacks
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_BP_Backpack.001
+      parentName: BackPacks
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_BP_Backpack.002
+      parentName: BackPacks
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_BP_Backpack.003
+      parentName: BackPacks
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_BP_Backpack.004
+      parentName: BackPacks
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Feet
+      parentName: Aisha(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_All-star
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_Ballet Shoes.000
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_Ballet Shoes.001
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_Ballet Shoes.002
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_Base
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_Boots.000
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_Boots.001
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_Boots.002
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_High Heels
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Feet_Shoes
+      parentName: Feet
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair
+      parentName: Aisha(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hair_CommonHair.000
+      parentName: Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hair_CommonHair.001
+      parentName: Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hair_CommonHair.002
+      parentName: Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hair_CommonHair.003
+      parentName: Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hair_CommonHair.004
+      parentName: Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hair_CommonHair.005
+      parentName: Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hair_CommonHair.006
+      parentName: Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hair_StarterHair
+      parentName: Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hands
+      parentName: Aisha(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hand_Bandage
+      parentName: Hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hand_Base
+      parentName: Hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hand_bracelets
+      parentName: Hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hand_Glove.000
+      parentName: Hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hand_Glove.001
+      parentName: Hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hand_Glove.002
+      parentName: Hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hand_Glove.003
+      parentName: Hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hand_LongSleeve Glove
+      parentName: Hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Hand_Painted Nails
+      parentName: Hands
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Aisha(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Eyes_Glasses
+      parentName: Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Head_Cap
+      parentName: Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Head_Earphone
+      parentName: Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Head_Farm Hat
+      parentName: Head
+      position: {x: -0, y: 0.00000011920929, z: -0.0000000037252903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Head_Motorcycle Helmet
+      parentName: Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Mask_Badana
+      parentName: Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Mask_Medic Mask
+      parentName: Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Legs
+      parentName: Aisha(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Legs_Base
+      parentName: Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Legs_Pants.000
+      parentName: Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Legs_Pants.001
+      parentName: Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Legs_Pants.002
+      parentName: Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Legs_School Uniform_Skirt
+      parentName: Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Legs_Shorts
+      parentName: Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Legs_Shorts.001
+      parentName: Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Legs_Shorts.002
+      parentName: Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Legs_Skirt
+      parentName: Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Outer
+      parentName: Aisha(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Outer_MilitaryVest
+      parentName: Outer
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig
+      parentName: Aisha(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: Rig
+      position: {x: 6.416323e-10, y: 0.026670158, z: 0.9821934}
+      rotation: {x: -0.00000032949106, y: 0.6583223, z: 0.7527362, w: -0.00000028723804}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: spine_01
+      parentName: Pelvis
+      position: {x: 1.5709656e-14, y: 0.18545502, z: 0.0000000012805683}
+      rotation: {x: 0.096011065, y: 0.000000474262, z: 0.00000012948409, w: 0.9953803}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Spine_03
+      parentName: spine_01
+      position: {x: -4.9404925e-15, y: 0.107492484, z: 9.313224e-10}
+      rotation: {x: 0.0614314, y: -0.00000047609606, z: 0.00000008276519, w: 0.9981113}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Clavicle_l
+      parentName: Spine_03
+      position: {x: 0.021522654, y: 0.18091528, z: -0.001959756}
+      rotation: {x: 0.73730224, y: 0.66046476, z: 0.10762403, w: 0.09267579}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Upperarm_l
+      parentName: Clavicle_l
+      position: {x: -0.00000010617077, y: 0.09695605, z: 0.000000018626451}
+      rotation: {x: 0.13570745, y: -0.10083937, z: -0.05125353, w: 0.9842703}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: lowerarm_l
+      parentName: Upperarm_l
+      position: {x: -0, y: 0.23373708, z: -0.000000008381903}
+      rotation: {x: 0.03524427, y: 0.00202059, z: -0.027931515, w: 0.9989863}
+      scale: {x: 0.99999976, y: 0.9999997, z: 0.9999999}
+    - name: hand_l
+      parentName: lowerarm_l
+      position: {x: 0.00000002438901, y: 0.26739922, z: 0.0000000037252903}
+      rotation: {x: 0.020782009, y: 0.05349036, z: -0.020532386, w: 0.99814093}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999976}
+    - name: index_01_l
+      parentName: hand_l
+      position: {x: -0.008315619, y: 0.09583988, z: 0.02571509}
+      rotation: {x: 0.03914786, y: -0.0051871203, z: 0.1097906, w: 0.99316996}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: index_02_l
+      parentName: index_01_l
+      position: {x: 0.000000023748726, y: 0.0375937, z: -0.000000007450581}
+      rotation: {x: -0.032913413, y: 0.0043712, z: 0.024980234, w: 0.9991364}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: index_03_l
+      parentName: index_02_l
+      position: {x: 0.000000010477379, y: 0.032005697, z: 0.000000022351742}
+      rotation: {x: -0.01738448, y: -0.006053196, z: 0.051510237, w: 0.9985028}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: middle_01_l
+      parentName: hand_l
+      position: {x: -0.006512528, y: 0.09574815, z: 0.0015219525}
+      rotation: {x: 0.0016116012, y: -0.047579728, z: 0.115278885, w: 0.99219173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: middle_02_l
+      parentName: middle_01_l
+      position: {x: -0.000000029802322, y: 0.040258765, z: 0.000000029802322}
+      rotation: {x: 0.013353395, y: -0.005698426, z: 0.03552963, w: 0.99926317}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: middle_03_l
+      parentName: middle_02_l
+      position: {x: -0.00000003632158, y: 0.036246687, z: 0.000000022351742}
+      rotation: {x: -0.0055001313, y: -0.002648508, z: 0.06327421, w: 0.9979775}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: pinky_01_l
+      parentName: hand_l
+      position: {x: -0.0043078423, y: 0.093683556, z: -0.04187827}
+      rotation: {x: -0.027844176, y: 0.0034191797, z: 0.10593753, w: 0.993977}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: pinky_02_l
+      parentName: pinky_01_l
+      position: {x: -0.000000036350684, y: 0.02525852, z: 0.000000018626451}
+      rotation: {x: 0.037031237, y: -0.008955537, z: 0.0085761, w: 0.9992372}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: pinky_03_l
+      parentName: pinky_02_l
+      position: {x: 0.000000025203917, y: 0.021949494, z: 0.000000011175871}
+      rotation: {x: -0.0074619087, y: 0.0007047788, z: 0.02324631, w: 0.9997017}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: ring_01_l
+      parentName: hand_l
+      position: {x: -0.0061982465, y: 0.09531227, z: -0.022680419}
+      rotation: {x: -0.014299988, y: -0.02524644, z: 0.1142385, w: 0.9930296}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: ring_02_l
+      parentName: ring_01_l
+      position: {x: -0.000000030966476, y: 0.0343913, z: 0.0000000037252903}
+      rotation: {x: 0.007641022, y: -0.006379871, z: 0.040446114, w: 0.99913216}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: ring_03_l
+      parentName: ring_02_l
+      position: {x: 0.0000000011641532, y: 0.032629523, z: -0.000000022351742}
+      rotation: {x: 0.0023774274, y: -0.0032522131, z: 0.03624773, w: 0.99933475}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: thumb_01_l
+      parentName: hand_l
+      position: {x: -0.006205632, y: 0.019165052, z: 0.024850668}
+      rotation: {x: 0.103074335, y: 0.8477868, z: 0.39712554, w: 0.3360425}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: thumb_02_l
+      parentName: thumb_01_l
+      position: {x: -0.000000009313226, y: 0.03401684, z: 0.0000000018626451}
+      rotation: {x: 0.015795669, y: -0.21690845, z: -0.026927788, w: 0.97569263}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: thumb_03_l
+      parentName: thumb_02_l
+      position: {x: -0.0000000018626451, y: 0.031845957, z: 0.000000018626451}
+      rotation: {x: -0.010272988, y: 0.17881158, z: -0.060267217, w: 0.98198205}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Clavicle_r
+      parentName: Spine_03
+      position: {x: -0.02152265, y: 0.18091528, z: -0.0019597895}
+      rotation: {x: 0.73730236, y: -0.6604648, z: -0.1076234, w: 0.09267525}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Upperarm_r
+      parentName: Clavicle_r
+      position: {x: -0.0000000121071935, y: 0.09695606, z: 0}
+      rotation: {x: 0.13570774, y: 0.100839555, z: 0.051252864, w: 0.98427033}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: lowerarm_r
+      parentName: Upperarm_r
+      position: {x: -0.000000115600415, y: 0.23373705, z: -0.000000004656613}
+      rotation: {x: 0.035244115, y: -0.002020597, z: 0.027932033, w: 0.99898624}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: hand_r
+      parentName: lowerarm_r
+      position: {x: -0.000000025058398, y: 0.26739916, z: -0.000000014901161}
+      rotation: {x: 0.020782048, y: -0.053490374, z: 0.020532481, w: 0.99814093}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: index_01_r
+      parentName: hand_r
+      position: {x: 0.00831562, y: 0.09583988, z: 0.025715075}
+      rotation: {x: 0.03914791, y: 0.0051870984, z: -0.10979044, w: 0.99316996}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: index_02_r
+      parentName: index_01_r
+      position: {x: 0.000000042811735, y: 0.037593763, z: 0.000000026077032}
+      rotation: {x: -0.03291267, y: -0.004371185, z: -0.024979642, w: 0.99913645}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: index_03_r
+      parentName: index_02_r
+      position: {x: -0.000000072061084, y: 0.032005847, z: 0.000000018626451}
+      rotation: {x: -0.017384501, y: 0.0060531865, z: -0.05151024, w: 0.9985028}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: middle_01_r
+      parentName: hand_r
+      position: {x: 0.0065124985, y: 0.09574816, z: 0.0015219413}
+      rotation: {x: 0.0016113833, y: 0.04757983, z: -0.11528154, w: 0.99219143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: middle_02_r
+      parentName: middle_01_r
+      position: {x: 0.00000003259629, y: 0.04025872, z: -0.000000007450581}
+      rotation: {x: 0.013353404, y: 0.005698404, z: -0.035529703, w: 0.99926317}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: middle_03_r
+      parentName: middle_02_r
+      position: {x: -0.000000052154064, y: 0.036246642, z: -0.000000007450581}
+      rotation: {x: -0.0055001625, y: 0.0026484828, z: -0.06327423, w: 0.9979775}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: pinky_01_r
+      parentName: hand_r
+      position: {x: 0.004307842, y: 0.09368357, z: -0.041878313}
+      rotation: {x: -0.027844457, y: -0.0034194952, z: -0.10593498, w: 0.9939773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pinky_02_r
+      parentName: pinky_01_r
+      position: {x: 0.0000000068102963, y: 0.025258474, z: 0.000000010244548}
+      rotation: {x: 0.03703121, y: 0.008955532, z: -0.008576173, w: 0.9992372}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: pinky_03_r
+      parentName: pinky_02_r
+      position: {x: 0.00000001990702, y: 0.0219494, z: 0.0000000037252903}
+      rotation: {x: -0.007461877, y: -0.00070477935, z: -0.023246333, w: 0.9997017}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: ring_01_r
+      parentName: hand_r
+      position: {x: 0.006198246, y: 0.09531226, z: -0.022680433}
+      rotation: {x: -0.014299972, y: 0.025246426, z: -0.114238515, w: 0.9930296}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: ring_02_r
+      parentName: ring_01_r
+      position: {x: 0.000000033003744, y: 0.03439138, z: -0.000000007450581}
+      rotation: {x: 0.0076392246, y: 0.006379741, z: -0.040434882, w: 0.9991326}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: ring_03_r
+      parentName: ring_02_r
+      position: {x: 0.000000058673322, y: 0.03262949, z: 0.000000026077032}
+      rotation: {x: 0.0023774067, y: 0.0032521975, z: -0.036247723, w: 0.99933475}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: thumb_01_r
+      parentName: hand_r
+      position: {x: 0.0062056617, y: 0.01916511, z: 0.024850616}
+      rotation: {x: -0.10307436, y: 0.84778684, z: 0.3971255, w: -0.33604234}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: thumb_02_r
+      parentName: thumb_01_r
+      position: {x: -0.000000029802322, y: 0.034016773, z: 0.000000014901161}
+      rotation: {x: 0.015796516, y: 0.21690826, z: 0.026931772, w: 0.9756926}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: thumb_03_r
+      parentName: thumb_02_r
+      position: {x: -0.000000026077032, y: 0.031845905, z: -0.000000024214387}
+      rotation: {x: -0.010272991, y: -0.17881158, z: 0.060267217, w: 0.98198205}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: neck_01
+      parentName: Spine_03
+      position: {x: -0.0000000026788671, y: 0.23528436, z: 0.0032942034}
+      rotation: {x: -0.099280655, y: -0.00000023923715, z: -0.00000006004168, w: 0.9950595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: neck_01
+      position: {x: 3.6082248e-16, y: 0.06249121, z: 5.551115e-17}
+      rotation: {x: -0.044513725, y: 0.00000012084168, z: -0.000000024214522, w: 0.9990088}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh_l
+      parentName: Pelvis
+      position: {x: 0.084071524, y: 0.03821155, z: 0.011338459}
+      rotation: {x: 0.09517656, y: -0.07502162, z: 0.99262065, w: -0.004169032}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000052}
+    - name: calf_l
+      parentName: thigh_l
+      position: {x: 0.000000003958121, y: 0.43132317, z: 0.0000000027939677}
+      rotation: {x: 0.029752044, y: 0.12794557, z: -0.0040337695, w: 0.99132663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_l
+      parentName: calf_l
+      position: {x: 0.0000000023574103, y: 0.5000829, z: -0.0000000048894435}
+      rotation: {x: -0.56044674, y: -0.0042746044, z: -0.029059991, w: 0.82766944}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: ball_l
+      parentName: foot_l
+      position: {x: 0.0000000031341187, y: 0.14873259, z: 3.4197e-10}
+      rotation: {x: 0.0014465285, y: 0.9776319, z: -0.20974933, w: 0.015458165}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: thigh_r
+      parentName: Pelvis
+      position: {x: -0.084071554, y: 0.03821155, z: 0.011338314}
+      rotation: {x: -0.095177434, y: -0.0750216, z: 0.9926206, w: 0.0041689607}
+      scale: {x: 1, y: 1.0000001, z: 1.0000055}
+    - name: calf_r
+      parentName: thigh_r
+      position: {x: 0.0000000071013346, y: 0.43132323, z: 9.313226e-10}
+      rotation: {x: 0.029752022, y: -0.12794557, z: 0.0040337625, w: 0.99132663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_r
+      parentName: calf_r
+      position: {x: -0.0000000064610504, y: 0.50008297, z: -4.656613e-10}
+      rotation: {x: -0.5604467, y: 0.004274566, z: 0.029059967, w: 0.82766956}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: ball_r
+      parentName: foot_r
+      position: {x: -0.000000005590209, y: 0.14873259, z: -0.0000000050349627}
+      rotation: {x: -0.0014465264, y: 0.977632, z: -0.20974936, w: -0.0154571915}
+      scale: {x: 1, y: 0.99999976, z: 1.0000001}
+    - name: Torso
+      parentName: Aisha(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_Base
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_Cut Sweatshirt
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_Dress
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_Long-Sleeve
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_Overall And T-shirt
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_School Uniform_Shirt
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_Shirt
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_Skull Sweatshirt
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_Small Tank-Top
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_T-Shirt
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Aisha_Torso_Tank-Top
+      parentName: Torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
