@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Game RB/RB_Scenes/CharacterSelect.unity
     guid: 9748b6e9880114b46a2e24ff4ec7c432
   - enabled: 1
-    path: Assets/Scenes/Sandbox01.unity
+    path: Assets/Scenes/Night/Sandbox01.unity
     guid: 7273fe30602e50648aedb2c3c41904cf
   m_configObjects: {}
