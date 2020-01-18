@@ -2,7 +2,6 @@
 using ActionPlatformer.Core;
 using ActionPlatformer.Death;
 using ActionPlatformer.PooledObjects;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,7 +19,6 @@ namespace ActionPlatformer.Control
         public bool debug;
         public float StartAttackTime;
         public float EndAttackTime;
-        //public List<string> ColliderNames = new List<string>(); // List of body parts that the attack is using
         public List<AttackPartType> AttackParts = new List<AttackPartType>();
         public DeathType deathType;
         public bool MustCollide;
@@ -34,8 +32,6 @@ namespace ActionPlatformer.Control
         {
             animator.SetBool(TransitionParameter.Attack.ToString(), false);
 
-            // Instantiate AttackInfo Prefab
-            //GameObject obj = Instantiate(Resources.Load("AttackInfo", typeof(GameObject))) as GameObject;
             GameObject obj = PoolManager.Instance.GetObject(PoolObjectType.ATTACKINFO); //obj.GetComponent<AttackInfo>();
             AttackInfo info = obj.GetComponent<AttackInfo>();
 
