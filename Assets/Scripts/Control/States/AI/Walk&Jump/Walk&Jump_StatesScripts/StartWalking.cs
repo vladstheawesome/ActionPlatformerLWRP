@@ -69,7 +69,7 @@ namespace ActionPlatformer.AI
                         animator.gameObject.SetActive(true);
                     }
                     // Temporary attack solution
-                    else
+                    /*else
                     {
                         if (CharacterManager.Instance.GetPlayableCharacter().damageDetector.DamageTaken == 0)
                         {
@@ -86,7 +86,7 @@ namespace ActionPlatformer.AI
                                 control.Attack = true;
                             }
                         }
-                    }
+                    }*/
                 }
             }
         }
