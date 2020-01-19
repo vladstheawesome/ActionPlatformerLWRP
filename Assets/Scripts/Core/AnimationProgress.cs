@@ -14,6 +14,7 @@ namespace ActionPlatformer.Core
         public bool AttackTriggered;
         public float MaxPressTime;
         public bool disallowEartlyTurn;
+        public float AirMomentum;
 
         private CharacterControl control;
         private float PressTime;
