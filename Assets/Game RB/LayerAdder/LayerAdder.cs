@@ -10,6 +10,7 @@ namespace ActionPlatformer
         CHARACTER,
         BOT,
         GROUND,
+        DEADBODY,
     }
 
     public class LayerAdder : MonoBehaviour

@@ -1491,7 +1491,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.09124453, y: -0.066564, z: -0.0005538515}
+  m_ConnectedAnchor: {x: 0.09124453, y: -0.066564, z: -0.00055361306}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -1959,7 +1959,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000012805019, y: 0.215689, z: -0.026496656}
+  m_ConnectedAnchor: {x: 0.0000012805019, y: 0.215689, z: -0.026496895}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2397,7 +2397,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0024467986, y: -0.40595406, z: -0.0051703397}
+  m_ConnectedAnchor: {x: -0.0024467986, y: -0.40595406, z: -0.005170578}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2863,7 +2863,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.091244526, y: -0.066563986, z: -0.0005538565}
+  m_ConnectedAnchor: {x: -0.091244526, y: -0.066563986, z: -0.00055361807}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -3239,10 +3239,9 @@ MonoBehaviour:
   animationProgress: {fileID: 0}
   aiProgress: {fileID: 0}
   damageDetector: {fileID: 0}
-  ColliderEdgePrefab: {fileID: 1084219484595157386, guid: 729d04e47d3a028469fa1a1216ddf5e6,
-    type: 3}
   BottomSpheres: []
   FrontSpheres: []
+  aiController: {fileID: 0}
   GravityMultiplier: 0
   PullMultiplier: 0
   playableCharacterType: 4
@@ -3261,7 +3260,6 @@ MonoBehaviour:
   - {fileID: 2510165419609396256}
   - {fileID: 7074865538879599051}
   - {fileID: 2305079526707240712}
-  - {fileID: 213123682}
   LeftHand_Attack: {fileID: 382542608833660889}
   RightHand_Attack: {fileID: 877859058002271199}
 --- !u!114 &7199473640970729132
@@ -3345,9 +3343,11 @@ MonoBehaviour:
   Jumped: 0
   CameraShaken: 0
   PoolObjectList: 
+  RagdollTriggered: 0
   AttackTriggered: 0
   MaxPressTime: 0.1
   disallowEartlyTurn: 0
+  AirMomentum: 0
 --- !u!114 &452252845
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -37,6 +37,7 @@ namespace ActionPlatformer
 
                 Physics.IgnoreLayerCollision(dic["Default"], dic["Default"], false);
                 Physics.IgnoreLayerCollision(dic[ActionPlatformerLayers.CHARACTER.ToString()], dic["Default"], false);
+                Physics.IgnoreLayerCollision(dic[ActionPlatformerLayers.DEADBODY.ToString()], dic["Default"], false);
 
                 Debug.Log("default collisions set");
             }

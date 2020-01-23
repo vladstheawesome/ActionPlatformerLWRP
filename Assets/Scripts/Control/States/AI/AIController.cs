@@ -50,7 +50,10 @@ namespace ActionPlatformer.AI
                 }
             }
 
-            next.gameObject.SetActive(true);
+            if (next != null)
+            {
+                next.gameObject.SetActive(true);
+            }            
         }
     }
 }

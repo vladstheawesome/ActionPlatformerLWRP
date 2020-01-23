@@ -141,29 +141,53 @@ namespace ActionPlatformer.Control
             {
                 if (c.gameObject != this.gameObject)
                 {
-                    c.isTrigger = true;
-                    RagdollParts.Add(c);
-
-                    if(c.GetComponent<TriggerDetector>() == null)
+                    if (c.gameObject.GetComponent<LedgeChecker>() == null)
                     {
-                        c.gameObject.AddComponent<TriggerDetector>();
-                    }                    
+                        c.isTrigger = true;
+                        RagdollParts.Add(c);
+
+                        if (c.GetComponent<TriggerDetector>() == null)
+                        {
+                            c.gameObject.AddComponent<TriggerDetector>();
+                        }
+                    }                                       
                 }
             }
         }
 
-        private void TurnOnRagDoll()
+        public void TurnOnRagDoll()
         {
+            // changing layers
+            Transform[] arr = GetComponentsInChildren<Transform>();
+            foreach(Transform t in arr)
+            {
+                t.gameObject.layer = LayerMask.NameToLayer(ActionPlatformerLayers.DEADBODY.ToString());
+            }
+
+            // save body part positions
+            foreach (Collider c in RagdollParts)
+            {
+                TriggerDetector det = c.GetComponent<TriggerDetector>();
+                det.LastPosition = c.gameObject.transform.localPosition;
+                det.LastRotation = c.gameObject.transform.localRotation;
+            }
+
+            // turn off animator/avatar
             RIGID_BODY.useGravity = false;
             RIGID_BODY.velocity = Vector3.zero;
             this.gameObject.GetComponent<BoxCollider>().enabled = false;
             SkinnedMeshAnimator.enabled = false;
             SkinnedMeshAnimator.avatar = null;
 
+            // turn on ragdoll
             foreach(Collider c in RagdollParts)
             {
                 c.isTrigger = false;
                 c.attachedRigidbody.velocity = Vector3.zero;
+
+                TriggerDetector det = c.GetComponent<TriggerDetector>();
+                c.transform.localPosition = det.LastPosition;
+                c.transform.localRotation = det.LastRotation;
             }
         }
 

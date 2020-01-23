@@ -11,6 +11,7 @@ namespace ActionPlatformer.Core
         public bool Jumped;
         public bool CameraShaken;
         public List<PoolObjectType> PoolObjectList = new List<PoolObjectType>();
+        public bool RagdollTriggered;
         public bool AttackTriggered;
         public float MaxPressTime;
         public bool disallowEartlyTurn;
